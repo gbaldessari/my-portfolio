@@ -1,11 +1,21 @@
 <!doctype html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/my-portfolio/piccolo.png" />
+    <link id="favicon" rel="icon" type="image/svg+xml" href="/my-portfolio/icoNegroNoBG500.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Giacomo Baldessari</title>
-    <script type="module" crossorigin src="/my-portfolio/assets/index-CCYAt4di.js"></script>
+    <script>
+      const setFavicon = (isDarkMode) => {
+        const favicon = document.getElementById('favicon');
+        favicon.href = isDarkMode ? '/icoBlancoNoBG500.png' : '/icoNegroNoBG500.png';
+      };
+
+      const darkModeMediaQuery = window.matchMedia('(prefers-color-scheme: dark)');
+      setFavicon(darkModeMediaQuery.matches);
+      darkModeMediaQuery.addEventListener('change', (e) => setFavicon(e.matches));
+    </script>
+    <script type="module" crossorigin src="/my-portfolio/assets/index-BuqwEyeW.js"></script>
     <link rel="stylesheet" crossorigin href="/my-portfolio/assets/index-BeKXVbW7.css">
   </head>
   <body>
