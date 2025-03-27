@@ -36,22 +36,22 @@ body {
 }
 
 h1 {
-  font-size: 3.5em;
+  padding-top: 0.5rem;
+  font-size: 2.5em;
   line-height: 1.1;
   color: #ffffff;
   margin-bottom: 0.5em;
 }
 
 h2 {
-  font-size: 2.5em;
+  font-size: 1.8em;
   color: #ffffff;
   margin-bottom: 0.5em;
 }
 
 h3 {
-  font-size: 1.8em;
+  font-size: 1.5em;
   color: #ffffff;
-  margin-bottom: 0.5em;
 }
 
 p {
@@ -126,6 +126,10 @@ button:focus-visible {
   color: #81c784;
 }
 
+.logo {
+  width: 200px;
+  height: 200px;
+}
 .section {
   width: 75%;
   padding: 2rem;
@@ -181,7 +185,7 @@ button:focus-visible {
   display: flex;
   animation: scroll var(--scroll-duration) linear infinite;
   --scroll-duration: 35s;
-  --total-items: 21;
+  --total-items: 20;
 }
 
 .carousel-item {
@@ -238,6 +242,50 @@ button:focus-visible {
   color: #ffffff;
 }
 
+.mobile-layout {
+  font-size: 14px;
+}
+
+@media (max-width: 768px) {
+  .mobile-layout h1 {
+    font-size: 1.8rem;
+  }
+
+  .mobile-layout h2 {
+    font-size: 1.4rem;
+  }
+  .mobile-layout h3 {
+    font-size: 1.2rem;
+  }
+
+  .mobile-layout p {
+    font-size: 0.9rem;
+  }
+
+  @keyframes scroll {
+    0% {
+      transform: translateX(0);
+    }
+  
+    100% {
+      transform: translateX(calc(-220px * var(--total-items)));
+    }
+  }
+
+  .carousel-item {
+    width: 140px;
+    height: 140px;
+  }
+  
+  .carousel-image-container {
+    height: 140px;
+  }
+  
+  .carousel-item img {
+    max-height: 100px;
+  }
+}
+
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
@@ -245,7 +293,7 @@ button:focus-visible {
   }
 
   body {
-    background: linear-gradient(135deg, #ffffff 0%, #f0f0f0 100%);
+    background: linear-gradient(135deg, #ffffff 0%, #ffe9cb 100%);
   }
 
   h1 {
@@ -293,7 +341,7 @@ button:focus-visible {
   }
 
   .carousel-item {
-    background-color: #f0f0f0;
+    background-color: #ffe9cb;
   }
 
   .carousel-item p {
