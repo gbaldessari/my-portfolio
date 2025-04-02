@@ -1,9 +1,19 @@
+/**
+ * Interfaz que representa una habilidad.
+ * @property {string} imgSrc - Ruta de la imagen que representa la habilidad.
+ * @property {string} text - Nombre o descripción de la habilidad.
+ * @property {string} alt - Texto alternativo para la imagen.
+ */
 export interface Skill {
   imgSrc: string;
   text: string;
   alt: string;
 }
 
+/**
+ * Lista de habilidades que se mostrarán en el carrusel.
+ * Cada habilidad incluye una imagen, un texto descriptivo y un texto alternativo.
+ */
 export const skills: Skill[] = [
   { imgSrc: 'assets/stack/java.png', text: 'Java', alt: 'Java' },
   { imgSrc: 'assets/stack/python.png', text: 'Python', alt: 'Python' },

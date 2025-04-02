@@ -32,7 +32,7 @@ body {
   flex-direction: column;
   min-width: 320px;
   min-height: 100vh;
-  background: linear-gradient(135deg, #1e1e1e 0%, #2c3e50 100%);
+  background: linear-gradient(135deg, #111111 0%, #395a7c 100%);
 }
 
 h1 {
@@ -96,11 +96,6 @@ button:focus-visible {
   backdrop-filter: blur(10px);
 }
 
-.header-hidden {
-  transform: translateY(-100%);
-  transition: transform 0.3s ease-in-out;
-}
-
 .main-content {
   flex: 1;
   padding-top: 5rem;
@@ -127,9 +122,20 @@ button:focus-visible {
 }
 
 .logo {
-  width: 200px;
-  height: 200px;
+  width: 80px;
+  height: 80px;
+  transition: transform 0.3s ease;
 }
+
+.logo:active {
+  transform: scale(1.1);
+}
+
+.logo-placeholder {
+  display: inline-block;
+  background: transparent;
+}
+
 .section {
   width: 75%;
   padding: 2rem;
@@ -293,7 +299,7 @@ button:focus-visible {
   }
 
   body {
-    background: linear-gradient(135deg, #ffffff 0%, #ffe9cb 100%);
+    background: linear-gradient(135deg, #dbdada 0%, #fae0bb 100%);
   }
 
   h1 {
@@ -355,4 +361,20 @@ button:focus-visible {
   .contact-icons a:hover {
     color: #000000;
   }
+}
+
+.logo-container {
+  position: relative;
+  width: 80px;
+  height: 80px;
+}
+
+.logo-placeholder {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 80px;
+  height: 80px;
+  background: transparent;
+  z-index: -1;
 }

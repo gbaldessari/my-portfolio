@@ -1,50 +1,97 @@
-# React + TypeScript + Vite
+# My Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este proyecto es una página web de portafolio personal diseñada para mostrar información sobre mí, mis habilidades, proyectos y formas de contacto. La página está desarrollada con **React**, **TypeScript** y **Vite**, y utiliza un diseño responsivo para adaptarse a diferentes dispositivos.
 
-Currently, two official plugins are available:
+## Finalidad de la Página
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+La finalidad de esta página es:
 
-## Expanding the ESLint configuration
+- Presentar información sobre mi formación académica y experiencia.
+- Mostrar mis habilidades técnicas y herramientas con las que trabajo.
+- Proveer un espacio para que los visitantes puedan explorar mis proyectos.
+- Facilitar el contacto a través de enlaces a mis redes sociales y correo electrónico.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+---
 
-- Configure the top-level `parserOptions` property like this:
+## Requisitos Previos
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+Antes de comenzar, asegúrate de tener instalados los siguientes programas:
+
+- **Node.js** (versión 16 o superior): [Descargar Node.js](https://nodejs.org/)
+- **npm** (incluido con Node.js) o **yarn** como gestor de paquetes.
+
+---
+
+## Cómo Levantar la Aplicación en Local
+
+Sigue estos pasos para ejecutar la aplicación en tu entorno local:
+
+1. **Clona el repositorio**:
+
+   ```bash
+   git clone https://github.com/tu-usuario/my-portfolio.git
+   cd my-portfolio
+   ```
+
+2. **Instala las dependencias**:
+
+   ```bash
+   npm install
+   ```
+
+   O si usas `yarn`:
+
+   ```bash
+   yarn install
+   ```
+
+3. **Inicia el servidor de desarrollo**:
+
+   ```bash
+   npm run dev
+   ```
+
+   O si usas `yarn`:
+
+   ```bash
+   yarn dev
+   ```
+
+4. **Abre la aplicación en tu navegador**:
+  La aplicación estará disponible en [http://localhost:5173](http://localhost:5173).
+
+---
+
+## Estructura del Proyecto
+
+El proyecto está organizado de la siguiente manera:
+
+```bash
+public/
+├── assets/           # Imágenes
+├── documents/        # Recursos estáticos
+src/
+├── components/       # Componentes reutilizables como el carrusel y las habilidades
+├── App.tsx           # Componente principal de la aplicación
+├── main.tsx          # Punto de entrada de la aplicación
+├── index.css         # Estilos globales
 ```
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+---
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+## Tecnologías Utilizadas
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+- **React**: Biblioteca para construir interfaces de usuario.
+- **TypeScript**: Superset de JavaScript que añade tipado estático.
+- **Vite**: Herramienta de desarrollo rápida para aplicaciones web modernas.
+- **CSS**: Para los estilos de la página.
+
+---
+
+## Contacto
+
+Si tienes alguna pregunta o sugerencia, no dudes en contactarme:
+
+- **Correo**: [giacomo.baldessari@alumnos.ucn.cl](mailto:giacomo.baldessari@alumnos.ucn.cl)
+- **LinkedIn**: [Giacomo Baldessari](https://www.linkedin.com/in/giacomo-baldessari/)
+- **GitHub**: [gbaldessari](https://github.com/gbaldessari)
