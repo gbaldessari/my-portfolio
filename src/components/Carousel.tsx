@@ -1,5 +1,6 @@
 import React, { useRef, useEffect, JSX } from 'react';
 import { Skill } from './Skills';
+import './carousel.css';
 
 /**
  * Props para el componente Carousel.
@@ -42,11 +43,11 @@ const Carousel: React.FC<CarouselProps> = ({ items }: CarouselProps): JSX.Elemen
   }, [items]);
 
   return (
-    <div className="carousel-container">
-      <div className="carousel-track" ref={carouselRef}>
+    <div className='carousel-container'>
+      <div className='carousel-track' ref={carouselRef}>
         {items.map((item, index) => (
-          <div className="carousel-item" key={index}>
-            <div className="carousel-image-container">
+          <div className='carousel-item' key={index}>
+            <div className='carousel-image-container'>
               <img src={item.imgSrc} alt={item.alt} />
             </div>
             <div>

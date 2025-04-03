@@ -71,10 +71,10 @@ public/
 ├── assets/           # Imágenes
 ├── documents/        # Recursos estáticos
 src/
-├── components/       # Componentes reutilizables como el carrusel y las habilidades
+├── components/       # Componentes reutilizables como el carrusel y el tic tac toe
+├── pages/            # Vistas de la aplicación
 ├── App.tsx           # Componente principal de la aplicación
 ├── main.tsx          # Punto de entrada de la aplicación
-├── index.css         # Estilos globales
 ```
 
 ---
