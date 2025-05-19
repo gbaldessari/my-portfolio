@@ -151,10 +151,11 @@ function MainPage() {
 
       <main className='main-content'>
         <div className="content-container">
+
           {/* Sección Sobre mí */}
-          <section id='about'>
-            <h1>Sobre mí</h1>
+          <section id='about' className='section-anchor'>
             <div className='section'>
+              <h1>Sobre mí</h1>
               <p>
                 ¡Hola! Mi nombre es Giacomo Baldessari. Soy estudiante de Ingeniería Civil en Computación e Informática en la Universidad Católica del Norte y desarrollador freelancer.
                 Desde mis primeros pasos en el ámbito del desarrollo de software, he sentido una profunda pasión por el desarrollo web y móvil, manteniéndome en constante aprendizaje y actualización para implementar soluciones innovadoras y eficientes.
@@ -171,9 +172,9 @@ function MainPage() {
           </section>
 
           {/* Sección Educación */}
-          <section id='education'>
-            <h1>Educación</h1>
+          <section id='education' className='section-anchor'>
             <div className='section'>
+              <h1>Educación</h1>
               <h2>Universidad Católica del Norte</h2>
               <h3>Ingeniería Civil en Computación e Informática</h3>
               <h3>2021 - Presente</h3>
@@ -189,9 +190,9 @@ function MainPage() {
           </section>
 
           {/* Sección Stack Tecnológico */}
-          <section id='stack'>
-            <h1>Stack Tecnológico</h1>
+          <section id='stack' className='section-anchor'>
             <div className='section'>
+              <h1>Stack Tecnológico</h1>
               <p>
                 A lo largo de mi formación, he trabajado con una amplia variedad de tecnologías y herramientas que me han permitido desarrollar aplicaciones web y móviles de calidad.
                 Entre las tecnologías con las que tengo experiencia destacan:
@@ -203,9 +204,9 @@ function MainPage() {
           </section>
 
           {/* Sección Proyectos */}
-          <section id='projects'>
-            <h1>Proyectos</h1>
+          <section id='projects' className='section-anchor'>
             <div className='section'>
+              <h1>Proyectos</h1>
               <Cards items={projects} />
               <p>
                 Puede consultar más de mis proyectos personales en mi perfil de GitHub.
@@ -215,32 +216,35 @@ function MainPage() {
           </section>
 
           {/* Sección Framework Utilizado */}
-          <section id='framework'>
-            <h1>Framework Utilizado</h1>
+          <section id='framework' className='section-anchor'>
             <div className='section'>
+              <h1>Framework Utilizado</h1>
               <p>
-                Este sitio web ha sido desarrollado utilizando <strong>React</strong>, un framework de JavaScript ampliamente adoptado para la construcción de interfaces de usuario interactivas y dinámicas.
-                Cabe destacar que la página fue creada desde cero, sin recurrir a plantillas, aplicando únicamente los conocimientos adquiridos a lo largo de mi experiencia en desarrollo web.
+                Este sitio web ha sido desarrollado utilizando <strong>React</strong>, una biblioteca de JavaScript ampliamente reconocida por su eficiencia en la construcción de interfaces de usuario interactivas y escalables. 
+                El despliegue se realizó a través de <strong>GitHub Pages</strong>, lo que permite una distribución sencilla y confiable del contenido. 
+                Cabe destacar que todo el desarrollo se realizó desde cero, sin el uso de plantillas prediseñadas, aplicando exclusivamente los conocimientos adquiridos a lo largo de mi experiencia en desarrollo web.
               </p>
             </div>
           </section>
 
           {/* Sección Contacto */}
-          <section id='contact' className='contact-section'>
-            <h1>Contacto</h1>
-            <div className='contact-icons'>
-              <a href='mailto: giacomo.baldessari@alumnos.ucn.cl'>
-                <FaEnvelope />
-              </a>
-              <a href='https://www.linkedin.com/in/giacomo-baldessari/'>
-                <FaLinkedin />
-              </a>
-              <a href='https://github.com/gbaldessari'>
-                <FaGithub />
-              </a>
-              <a href='documents\CV Giacomo Baldessari.pdf' download>
-                <FaFileAlt />
-              </a>
+          <section id='contact' className='section-anchor'>
+            <div className='contact-section'>
+              <div className='contact-icons'>
+                <h1>Contacto</h1>
+                <a href='mailto: giacomo.baldessari@alumnos.ucn.cl'>
+                  <FaEnvelope />
+                </a>
+                <a href='https://www.linkedin.com/in/giacomo-baldessari/'>
+                  <FaLinkedin />
+                </a>
+                <a href='https://github.com/gbaldessari'>
+                  <FaGithub />
+                </a>
+                <a href='documents\CV Giacomo Baldessari.pdf' download>
+                  <FaFileAlt />
+                </a>
+              </div>
             </div>
           </section>
         </div>

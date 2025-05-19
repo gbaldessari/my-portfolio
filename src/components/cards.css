@@ -29,7 +29,6 @@
 }
 
 .project-card {
-  height: 80vh;
   min-width: 100%;
   background: #222831cc;
   border-radius: 20px;
@@ -41,7 +40,7 @@
 }
 
 .project-image img {
-  height: 500px;
+  width: 80%;
   border-radius: 12px;
   margin-bottom: 1rem;
   object-fit: cover;
