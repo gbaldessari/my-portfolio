@@ -3,6 +3,8 @@ import Carousel from '../components/Carousel';
 import { skills } from '../components/Skills';
 import { FaLinkedin, FaEnvelope, FaGithub, FaFileAlt } from 'react-icons/fa';
 import './mainPage.css';
+import Cards from '../components/Cards';
+import { projects } from '../components/Projects';
 
 /**
  * Página principal.
@@ -154,17 +156,16 @@ function MainPage() {
             <h1>Sobre mí</h1>
             <div className='section'>
               <p>
-                ¡Hola! Mi nombre es Giacomo Baldessari, soy estudiante de Ingeniería Civil en Computación e Informática en la Universidad Católica del Norte.
-                Desde que comencé a explorar el mundo del desarrollo de software, me he apasionado por el desarrollo web y móvil, buscando siempre aprender y
-                aplicar nuevas herramientas para crear soluciones innovadoras.
+                ¡Hola! Mi nombre es Giacomo Baldessari. Soy estudiante de Ingeniería Civil en Computación e Informática en la Universidad Católica del Norte y desarrollador freelancer.
+                Desde mis primeros pasos en el ámbito del desarrollo de software, he sentido una profunda pasión por el desarrollo web y móvil, manteniéndome en constante aprendizaje y actualización para implementar soluciones innovadoras y eficientes.
               </p>
               <p>
-                Me encanta enfrentar desafíos y trabajar en proyectos que no solo mejoren mis habilidades técnicas, sino que también aporten valor a quienes los usan.
-                A lo largo de mi formación, he desarrollado aplicaciones y sitios web, enfocándome en la creación de experiencias intuitivas y eficientes.
+                Disfruto enfrentar desafíos y participar en proyectos que no solo potencian mis habilidades técnicas, sino que también generan valor para los usuarios finales.
+                Durante mi formación, he desarrollado diversas aplicaciones y sitios web, priorizando la creación de experiencias intuitivas, funcionales y de alto rendimiento.
               </p>
               <p>
-                Actualmente, me encuentro en constante aprendizaje, explorando áreas como UX/UI, desarrollo full stack y optimización de rendimiento en aplicaciones web.
-                Mi objetivo es seguir creciendo como desarrollador, participando en proyectos que me permitan combinar creatividad y tecnología para generar impacto.
+                Actualmente, continúo perfeccionando mis conocimientos en áreas como UX/UI, desarrollo full stack y optimización de aplicaciones web.
+                Mi objetivo es seguir creciendo profesionalmente, contribuyendo en proyectos donde pueda combinar creatividad y tecnología para lograr un impacto positivo.
               </p>
             </div>
           </section>
@@ -177,14 +178,12 @@ function MainPage() {
               <h3>Ingeniería Civil en Computación e Informática</h3>
               <h3>2021 - Presente</h3>
               <p>
-                Actualmente, soy estudiante de Ingeniería Civil en Computación e Informática en la Universidad Católica del Norte, donde he desarrollado una sólida base
-                en programación, estructuras de datos, bases de datos y desarrollo de software. Mi formación me ha permitido explorar tanto el desarrollo web como móvil,
-                aplicando tecnologías modernas para la creación de soluciones digitales eficientes.
+                Actualmente curso la carrera de Ingeniería Civil en Computación e Informática en la Universidad Católica del Norte, donde he adquirido una sólida base en programación, estructuras de datos, bases de datos y desarrollo de software.
+                Esta formación me ha permitido explorar tanto el desarrollo web como móvil, aplicando tecnologías modernas para la creación de soluciones digitales robustas y escalables.
               </p>
               <p>
-                Durante mi trayectoria académica, he trabajado en diversos proyectos, tanto individuales como en equipo, que me han permitido mejorar mis habilidades en
-                desarrollo full stack, integración de APIs, diseño de interfaces y optimización del rendimiento de aplicaciones. Además, he adquirido conocimientos en
-                ingeniería de software y metodologías ágiles, lo que me ha ayudado a comprender el ciclo completo del desarrollo de software.
+                A lo largo de mi trayectoria académica, he participado en diversos proyectos, tanto individuales como colaborativos, que han fortalecido mis competencias en desarrollo full stack, integración de APIs, despliegue de aplicaciones, diseño de interfaces y optimización de rendimiento.
+                Además, he incorporado conocimientos en ingeniería de software y metodologías ágiles, comprendiendo así el ciclo completo de desarrollo de software.
               </p>
             </div>
           </section>
@@ -194,8 +193,8 @@ function MainPage() {
             <h1>Stack Tecnológico</h1>
             <div className='section'>
               <p>
-                A lo largo de mi formación, he tenido la oportunidad de trabajar con diversas tecnologías y herramientas que me han permitido desarrollar aplicaciones
-                web y móviles. Algunas de las tecnologías con las que tengo experiencia incluyen:
+                A lo largo de mi formación, he trabajado con una amplia variedad de tecnologías y herramientas que me han permitido desarrollar aplicaciones web y móviles de calidad.
+                Entre las tecnologías con las que tengo experiencia destacan:
               </p>
               <div className='stack-section'>
                 <Carousel items={skills} />
@@ -207,8 +206,9 @@ function MainPage() {
           <section id='projects'>
             <h1>Proyectos</h1>
             <div className='section'>
+              <Cards items={projects} />
               <p>
-                Puedes revisar mis proyectos en mi perfil de
+                Puede consultar más de mis proyectos personales en mi perfil de GitHub.
                 <a href='https://github.com/gbaldessari'> GitHub</a>
               </p>
             </div>
@@ -219,8 +219,8 @@ function MainPage() {
             <h1>Framework Utilizado</h1>
             <div className='section'>
               <p>
-                Esta página web ha sido desarrollada utilizando <strong>React</strong>, un framework de JavaScript ampliamente utilizado para construir interfaces de usuario interactivas y dinámicas.
-                Cabe resaltar que esta página ha sido creada desde cero, sin utilizar plantillas, solo lo aprendido durante mi experiencia desarrollando páginas web.
+                Este sitio web ha sido desarrollado utilizando <strong>React</strong>, un framework de JavaScript ampliamente adoptado para la construcción de interfaces de usuario interactivas y dinámicas.
+                Cabe destacar que la página fue creada desde cero, sin recurrir a plantillas, aplicando únicamente los conocimientos adquiridos a lo largo de mi experiencia en desarrollo web.
               </p>
             </div>
           </section>
