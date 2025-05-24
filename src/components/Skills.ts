@@ -26,6 +26,7 @@ export const skills: Skill[] = [
   { imgSrc: 'assets/stack/css.png', text: 'CSS', alt: 'CSS' },
   { imgSrc: 'assets/stack/react.png', text: 'React', alt: 'React' },
   { imgSrc: 'assets/stack/react-native.png', text: 'React Native', alt: 'React Native' },
+  { imgSrc: 'assets/stack/electron.png', text: 'Electron', alt: 'Electron' },
   { imgSrc: 'assets/stack/nestjs.png', text: 'NestJS', alt: 'NestJS' },
   { imgSrc: 'assets/stack/nodejs.png', text: 'Node.js', alt: 'Node.js' },
   { imgSrc: 'assets/stack/dotnet.png', text: 'Microsoft .NET', alt: 'Microsoft .NET' },

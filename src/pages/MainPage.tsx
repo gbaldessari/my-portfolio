@@ -194,7 +194,7 @@ function MainPage() {
             <div className='section'>
               <h1>Stack Tecnológico</h1>
               <p>
-                A lo largo de mi formación, he trabajado con una amplia variedad de tecnologías y herramientas que me han permitido desarrollar aplicaciones web y móviles de calidad.
+                A lo largo de mi formación, he trabajado con una amplia variedad de tecnologías y herramientas que me han permitido desarrollar aplicaciones de escritorio, web y móviles de calidad.
                 Entre las tecnologías con las que tengo experiencia destacan:
               </p>
               <div className='stack-section'>
