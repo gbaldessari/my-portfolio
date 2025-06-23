@@ -30,6 +30,7 @@ export const skills: Skill[] = [
   { imgSrc: 'assets/stack/nestjs.png', text: 'NestJS', alt: 'NestJS' },
   { imgSrc: 'assets/stack/nodejs.png', text: 'Node.js', alt: 'Node.js' },
   { imgSrc: 'assets/stack/dotnet.png', text: 'Microsoft .NET', alt: 'Microsoft .NET' },
+  { imgSrc: 'assets/stack/django.png', text: 'Django', alt: 'Django' },
   { imgSrc: 'assets/stack/mongodb.png', text: 'MongoDB', alt: 'MongoDB' },
   { imgSrc: 'assets/stack/postgresql.png', text: 'PostgreSQL', alt: 'PostgreSQL' },
   { imgSrc: 'assets/stack/git.png', text: 'Git', alt: 'Git' },
