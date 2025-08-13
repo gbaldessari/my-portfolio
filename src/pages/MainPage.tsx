@@ -210,7 +210,7 @@ function MainPage() {
               <Cards items={projects} />
               <p>
                 Puede consultar más de mis proyectos personales en mi perfil de GitHub.
-                <a href='https://github.com/gbaldessari'> GitHub</a>
+                <a href='https://github.com/gbaldessari' target='_blank' rel='noopener noreferrer'> GitHub</a>
               </p>
             </div>
           </section>
@@ -232,16 +232,16 @@ function MainPage() {
             <div className='contact-section'>
               <div className='contact-icons'>
                 <h1>Contacto</h1>
-                <a href='mailto: giacomo.baldessari@alumnos.ucn.cl'>
+                <a href='mailto: giacomo.baldessari@alumnos.ucn.cl' aria-label='Enviar correo'>
                   <FaEnvelope />
                 </a>
-                <a href='https://www.linkedin.com/in/giacomo-baldessari/'>
+                <a href='https://www.linkedin.com/in/giacomo-baldessari/' target='_blank' rel='noopener noreferrer' aria-label='LinkedIn'>
                   <FaLinkedin />
                 </a>
-                <a href='https://github.com/gbaldessari'>
+                <a href='https://github.com/gbaldessari' target='_blank' rel='noopener noreferrer' aria-label='GitHub'>
                   <FaGithub />
                 </a>
-                <a href='documents\CV Giacomo Baldessari.pdf' download>
+                <a href='documents/CV Giacomo Baldessari.pdf' download aria-label='Descargar CV'>
                   <FaFileAlt />
                 </a>
               </div>

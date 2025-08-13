@@ -13,6 +13,41 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  /* Variables de tema para acentos y superficies */
+  --primary: #4caf50;
+  --primary-600: #81c784;
+  --surface: rgba(255,255,255,0.06);
+  --card-border: rgba(255,255,255,0.12);
+  --shadow-md: 0 8px 30px rgba(0,0,0,0.25);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+::selection {
+  background: var(--primary);
+  color: #fff;
+}
+
+/* Scrollbar moderno */
+body::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+body::-webkit-scrollbar-thumb {
+  background: #ffffff30;
+  border-radius: 999px;
+  border: 2px solid transparent;
+  background-clip: padding-box;
+}
+body:hover::-webkit-scrollbar-thumb {
+  background: #ffffff50;
 }
 
 a {
@@ -64,6 +99,10 @@ p {
   :root {
     color: #213547;
     background-color: #ffffff;
+
+    --surface: rgba(255,255,255,0.7);
+    --card-border: rgba(0,0,0,0.08);
+    --shadow-md: 0 8px 30px rgba(0,0,0,0.12);
   }
 
   body {
