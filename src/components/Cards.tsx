@@ -137,23 +137,30 @@ const Cards: React.FC<CardsProps> = ({ items }) => {
       >
         {items.map((project, idx) => (
           <div
-            className={`project-card`}
+            className="project-card"
             key={idx}
             ref={idx === 0 ? cardRef : undefined}
           >
-
-            <div className="project-content">
+            <div className="project-header">
               <h2>{project.title}</h2>
               <h3>{project.subtitle}</h3>
-              <div className="project-tags">
-                {project.tags.map((tag, i) => (
-                  <span className="project-tag" key={i}>{tag}</span>
-                ))}
-              </div>
+            </div>
+            <div className="project-tags">
+              {project.tags.map((tag, i) => (
+                <span className="project-tag" key={i}>{tag}</span>
+              ))}
+            </div>
+            <div className="project-description">
               <p dangerouslySetInnerHTML={{ __html: project.description }} />
-              <div className="project-image">
+            </div>
+            <div className="project-image">
+              {project.image ? (
                 <img src={project.image} alt={project.title} draggable={false} onDragStart={preventImgDrag} />
-              </div>
+              ) : (
+                <div className="project-image-placeholder" aria-hidden="true">
+                  <span>Sin vista previa</span>
+                </div>
+              )}
             </div>
           </div>
         ))}
