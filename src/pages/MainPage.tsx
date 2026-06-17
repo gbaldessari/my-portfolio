@@ -1,7 +1,7 @@
 import { useState, useEffect, useRef } from 'react';
 import Carousel from '../components/Carousel';
 import { skills } from '../components/Skills';
-import { FaLinkedin, FaEnvelope, FaGithub, FaFileAlt, FaGraduationCap, FaBars, FaTimes, FaBriefcase, FaPhone } from 'react-icons/fa';
+import { FaLinkedin, FaEnvelope, FaGithub, FaFileAlt, FaGraduationCap, FaBars, FaTimes, FaBriefcase } from 'react-icons/fa';
 import './mainPage.css';
 import Cards from '../components/Cards';
 import { projects } from '../components/Projects';
@@ -60,6 +60,25 @@ function MainPage() {
       window.removeEventListener('resize', handleResize);
     };
   }, []);
+
+  useEffect(() => {
+    if (!menuOpen) {
+      document.body.style.overflow = '';
+      return;
+    }
+
+    document.body.style.overflow = 'hidden';
+
+    const handleEscape = (e: KeyboardEvent) => {
+      if (e.key === 'Escape') setMenuOpen(false);
+    };
+
+    window.addEventListener('keydown', handleEscape);
+    return () => {
+      document.body.style.overflow = '';
+      window.removeEventListener('keydown', handleEscape);
+    };
+  }, [menuOpen]);
 
   useEffect(() => {
     if (!isBouncing) return;
@@ -275,6 +294,7 @@ function MainPage() {
             <div className="section">
               <span className="section-label">05 — Trabajo</span>
               <h1>Proyectos</h1>
+              <p className="projects-swipe-hint">Desliza para ver más proyectos</p>
               <Cards items={projects} />
               <p>
                 Puede consultar más de mis proyectos personales en mi perfil de{' '}
@@ -301,16 +321,12 @@ function MainPage() {
               <span className="section-label">07 — Contacto</span>
               <h1>¿Trabajamos juntos?</h1>
               <p className="contact-subtitle">
-                Disponible para proyectos freelance y oportunidades profesionales · La Serena, Chile
+                Disponible para proyectos freelance y oportunidades profesionales
               </p>
               <div className="contact-icons">
                 <a href="mailto:giacomo.baldessari11@gmail.com" className="contact-link" aria-label="Enviar correo">
                   <FaEnvelope />
                   <span>Email</span>
-                </a>
-                <a href="tel:+56964293503" className="contact-link" aria-label="Llamar por teléfono">
-                  <FaPhone />
-                  <span>+56 9 6429 3503</span>
                 </a>
                 <a href="https://www.linkedin.com/in/giacomo-baldessari/" target="_blank" rel="noopener noreferrer" className="contact-link" aria-label="LinkedIn">
                   <FaLinkedin />

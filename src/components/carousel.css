@@ -51,16 +51,16 @@
   justify-content: flex-start;
   height: auto;
   min-height: 160px;
-  background: #eef1f6;
+  background: rgba(99, 102, 241, 0.16);
   border-radius: var(--radius-lg);
-  border: 1px solid rgba(15, 23, 42, 0.1);
+  border: 1px solid rgba(129, 140, 248, 0.32);
   transition: transform 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease, background 0.2s ease;
 }
 
 .carousel-item:hover {
   transform: translateY(-4px);
-  background: #e4e9f0;
-  border-color: rgba(15, 23, 42, 0.16);
+  background: rgba(99, 102, 241, 0.26);
+  border-color: rgba(165, 180, 252, 0.45);
   box-shadow: var(--shadow-md);
 }
 
@@ -70,6 +70,12 @@
   justify-content: center;
   height: auto;
   margin-bottom: 0.75rem;
+  background: rgba(255, 255, 255, 0.94);
+  border-radius: var(--radius-md);
+  padding: 0.625rem;
+  min-width: 72px;
+  min-height: 72px;
+  box-shadow: inset 0 0 0 1px rgba(99, 102, 241, 0.08);
 }
 
 .carousel-item img {
@@ -80,7 +86,7 @@
 
 .carousel-item p {
   margin: 0;
-  color: #475569;
+  color: #c7d2fe;
   font-size: 0.8125rem;
   font-weight: 500;
   text-align: center;
@@ -97,15 +103,31 @@
 }
 
 @media (max-width: 768px) {
+  .carousel-container::before,
+  .carousel-container::after {
+    width: 32px;
+  }
+
   .carousel-item {
-    width: 120px;
-    min-height: 130px;
-    margin: 16px 12px;
-    padding: 1rem;
+    width: 108px;
+    min-height: 118px;
+    margin: 12px 8px;
+    padding: 0.75rem;
+    border-radius: var(--radius-md);
+  }
+
+  .carousel-image-container {
+    min-width: 56px;
+    min-height: 56px;
+    padding: 0.5rem;
   }
 
   .carousel-item img {
-    max-height: 40px;
+    max-height: 36px;
+  }
+
+  .carousel-item p {
+    font-size: 0.75rem;
   }
 
   @keyframes scroll {
@@ -114,8 +136,29 @@
     }
 
     100% {
-      transform: translateX(calc(-144px * var(--total-items)));
+      transform: translateX(calc(-124px * var(--total-items)));
     }
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  .carousel-item {
+    background: #eef2ff;
+    border-color: rgba(79, 70, 229, 0.18);
+  }
+
+  .carousel-item:hover {
+    background: #e0e7ff;
+    border-color: rgba(79, 70, 229, 0.28);
+  }
+
+  .carousel-image-container {
+    background: #ffffff;
+    box-shadow: inset 0 0 0 1px rgba(79, 70, 229, 0.1);
+  }
+
+  .carousel-item p {
+    color: #475569;
   }
 }
 
