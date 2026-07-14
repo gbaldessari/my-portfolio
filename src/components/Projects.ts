@@ -26,9 +26,10 @@ export const projects: Project[] = [
   {
     title: 'Plataforma Digital de Captación y Gestión de Leads',
     subtitle: 'Ingeniero de software y desarrollador · Freelance · Laguna Roja (inmobiliaria), Valle del Elqui',
-    tags: ['PHP', 'JavaScript', 'NestJS', 'TypeScript', 'MongoDB', 'Kommo', 'Odoo', 'Google Ads API', 'Make', 'Railway', 'Resend', 'Hostinger'],
+    tags: ['PHP', 'JavaScript', 'NestJS', 'TypeScript', 'MongoDB', 'Kommo', 'Odoo', 'Google Ads API', 'Make', 'Railway', 'Resend', 'Hostinger', 'N8N', 'Evolution API'],
     description:
-      'Diseñé e implementé de forma integral landing pages de captación de leads y una API de integración CRM para proyectos inmobiliarios de parcelas en el Valle del Elqui. Desarrollé sitios orientados a conversión con formularios validados, seguimiento de campañas publicitarias (<b>Google Tag Manager</b>, <b>Meta Pixel</b>) y envío automático de prospectos a <b>Kommo</b> mediante webhooks; además construí una API en <b>NestJS</b> para sincronizar leads Kommo→Odoo con OAuth, jobs programados, mapeo de atributos UTM y registro de conversiones offline en <b>Google Ads</b>. Gestioné el despliegue productivo de la aplicación en <b>Railway</b> con <b>MongoDB</b>.',
+      'Diseñé e implementé de forma integral un ecosistema de captación y gestión de leads para proyectos inmobiliarios de parcelas en el Valle del Elqui. Desarrollé landing pages orientadas a conversión, con formularios validados, seguimiento de campañas (<b>Google Tag Manager</b>, <b>Meta Pixel</b>) y envío automático de prospectos a <b>Kommo</b> mediante webhooks. Construí una API en <b>NestJS</b> para sincronizar leads de Kommo a Odoo con OAuth, jobs programados, mapeo de atributos UTM y registro de conversiones offline en <b>Google Ads</b>. Automatizé con <b>n8n</b> el contacto por <b>WhatsApp</b> (Evolution API), la agendación de reuniones en <b>Google Calendar</b> y tareas de marketing y CRM, y gestioné el despliegue productivo de las landings en <b>Hostinger</b> y de la API en <b>Railway</b> con <b>MongoDB</b>.',
+
     image: 'assets/projects/LagunaRoja.png',
   },
   {

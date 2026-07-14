@@ -238,7 +238,7 @@ function MainPage() {
                   <p>
                     Desarrollo de aplicaciones web para pymes, APIs REST escalables y soluciones a medida con foco en rendimiento
                     y entrega continua. He liderado proyectos de punta a punta: diseño de arquitectura, implementación full stack,
-                    integraciones (WhatsApp, WooCommerce, CRM, mapas) y despliegue productivo.
+                    integraciones (WhatsApp, Correos, N8N, CRM, Mapas) y despliegue productivo.
                   </p>
                 </div>
               </div>
