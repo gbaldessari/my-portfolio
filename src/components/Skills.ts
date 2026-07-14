@@ -37,4 +37,6 @@ export const skills: Skill[] = [
   { imgSrc: 'assets/stack/railway.png', text: 'Railway', alt: 'Railway' },
   { imgSrc: 'assets/stack/resend.png', text: 'Resend', alt: 'Resend' },
   { imgSrc: 'assets/stack/jenkins.png', text: 'Jenkins', alt: 'Jenkins' },
+  { imgSrc: 'assets/stack/n8n.png', text: 'n8n', alt: 'n8n' },
+  { imgSrc: 'assets/stack/evolution.png', text: 'Evolution API', alt: 'Evolution API' },
 ];
