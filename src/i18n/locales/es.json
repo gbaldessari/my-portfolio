@@ -1,0 +1,368 @@
+{
+  "meta": {
+    "siteName": "Giacomo Baldessari",
+    "defaultDescription": "Desarrollador full stack en La Serena, Chile. Plataformas web en producción para pymes y organizaciones públicas, con React, NestJS e integraciones reales.",
+    "home": {
+      "title": "Portafolio",
+      "description": "Desarrollador full stack que construye plataformas web en producción para pymes y organizaciones públicas."
+    },
+    "projects": {
+      "title": "Proyectos",
+      "description": "Casos reales de plataformas en producción: gestión operativa, comercio B2B, captación de leads y sistemas georreferenciados."
+    },
+    "about": {
+      "title": "Sobre mí",
+      "description": "Trayectoria, formación y enfoque de trabajo de Giacomo Baldessari, desarrollador full stack en Chile."
+    },
+    "contact": {
+      "title": "Contacto",
+      "description": "Escríbeme para proyectos freelance, consultoría técnica u oportunidades profesionales."
+    },
+    "notFound": {
+      "title": "Página no encontrada",
+      "description": "La página que buscas no existe o fue movida."
+    }
+  },
+  "nav": {
+    "home": "Inicio",
+    "projects": "Proyectos",
+    "about": "Sobre mí",
+    "contact": "Contacto",
+    "downloadCv": "Descargar CV",
+    "cv": "CV"
+  },
+  "a11y": {
+    "mainNav": "Navegación principal",
+    "mobileNav": "Navegación móvil",
+    "footerNav": "Enlaces del pie de página",
+    "language": "Seleccionar idioma",
+    "openMenu": "Abrir menú",
+    "closeMenu": "Cerrar menú",
+    "switchToLight": "Cambiar a modo claro",
+    "switchToDark": "Cambiar a modo oscuro"
+  },
+  "footer": {
+    "copyright": "© {{year}} Giacomo Baldessari. Todos los derechos reservados."
+  },
+  "common": {
+    "viewProjects": "Ver proyectos",
+    "contact": "Contactar",
+    "viewCaseStudy": "Ver caso de estudio →",
+    "viewAllProjects": "Ver todos los proyectos",
+    "backHome": "← Volver al inicio",
+    "learnMoreAbout": "Conoce más sobre mi trayectoria →",
+    "goToContact": "Ir a contacto",
+    "sendMessage": "Enviar mensaje",
+    "sending": "Enviando...",
+    "inProduction": "En producción",
+    "completed": "Completado"
+  },
+  "hero": {
+    "label": "Portafolio",
+    "title": "Software que ordena tu operación y escala contigo",
+    "subtitle": "Giacomo Baldessari · Desarrollador Full Stack · La Serena, Chile",
+    "description": "Diseño y desarrollo plataformas web para pymes y organizaciones públicas: desde la gestión del día a día hasta integraciones con WhatsApp, CRM, mapas y herramientas que ya usas. Todo desplegado y funcionando en producción."
+  },
+  "socialProof": {
+    "platforms": { "value": "6+", "label": "proyectos completados" },
+    "stack": { "value": "Full Stack", "label": "React · NestJS · TypeScript" },
+    "integrations": { "value": "Integraciones", "label": "WhatsApp · CRM · Mapas · Ads" }
+  },
+  "services": {
+    "label": "Servicios",
+    "title": "Lo que tu negocio gana con una buena plataforma",
+    "intro": "No se trata solo de tener una web bonita. Se trata de reemplazar planillas, conectar herramientas y dejar procesos que hoy te quitan horas funcionando solos.",
+    "items": [
+      {
+        "title": "Gestión operativa digital",
+        "description": "Centraliza cobros, inventario, asistencias o clientes en un sistema claro para tu equipo, sin depender de Excel ni WhatsApp para todo.",
+        "client": "La Alpina Park",
+        "outcome": "Indicadores y operación diaria en un solo panel",
+        "projectSlug": "la-alpina-park"
+      },
+      {
+        "title": "Plataformas comerciales B2B",
+        "description": "Herramientas conectadas a tu ERP: mapas de clientes, catálogos, alertas de vencimiento y formularios con análisis para equipos comerciales.",
+        "client": "Ventas Fama",
+        "outcome": "Catálogos automatizados, mapa territorial y alertas de vencimiento",
+        "projectSlug": "ventas-fama"
+      },
+      {
+        "title": "Captación y automatización",
+        "description": "Landings que convierten, CRM conectado y seguimiento automático para que los leads no se pierdan entre formularios y planillas.",
+        "client": "Laguna Roja",
+        "outcome": "Landings, CRM y automatización comercial en evolución",
+        "projectSlug": "laguna-roja"
+      },
+      {
+        "title": "Sistemas con mapas y datos en terreno",
+        "description": "Aplicaciones georreferenciadas y monitoreo en tiempo real para operaciones de campo, tránsito o logística.",
+        "client": "UOCT Connect",
+        "outcome": "Incidentes, chat en tiempo real e integraciones Waze y CGE",
+        "projectSlug": "uoct"
+      }
+    ]
+  },
+  "featuredProjects": {
+    "label": "Proyectos",
+    "title": "Tres casos. Tres resultados.",
+    "intro": "Proyectos reales en producción: no demos de portafolio, sino herramientas que equipos y negocios usan hoy.",
+    "viewAll": "Ver todos los proyectos →"
+  },
+  "process": {
+    "label": "Cómo trabajo",
+    "title": "De la conversación al sistema funcionando",
+    "intro": "Un proceso claro para que sepas qué esperar, sin tecnicismos innecesarios ni sorpresas al final.",
+    "steps": [
+      {
+        "title": "Entiendo qué te está costando hoy",
+        "description": "Empezamos por el problema de negocio: qué proceso es manual, qué información falta y qué quieres mejorar. No necesitas saber de tecnología para esta conversación."
+      },
+      {
+        "title": "Defino alcance, plazos y stack",
+        "description": "Te propongo qué construir primero, cuánto demora y con qué herramientas. Si algo se puede resolver más simple, te lo digo antes de avanzar."
+      },
+      {
+        "title": "Construyo con avances visibles",
+        "description": "Trabajo por iteraciones con revisiones frecuentes. Ves progreso real, das feedback y ajustamos antes del lanzamiento."
+      },
+      {
+        "title": "Despliego y dejo operando",
+        "description": "El proyecto incluye puesta en producción, configuración y lo necesario para que tu equipo pueda usarlo desde el primer día."
+      },
+      {
+        "title": "Sigo disponible después",
+        "description": "Si surge un ajuste, una integración nueva o algo que revisar en producción, seguimos en contacto directo."
+      }
+    ]
+  },
+  "whyMe": {
+    "label": "Por qué trabajar conmigo",
+    "title": "Técnico cuando hace falta, claro siempre",
+    "items": [
+      {
+        "title": "Hablas con quien diseña y desarrolla",
+        "description": "Sin intermediarios. Yo defino la arquitectura, escribo el código y respondo tus dudas en el mismo canal."
+      },
+      {
+        "title": "Priorizo lo que funciona en producción",
+        "description": "Menos presentaciones y más sistemas desplegados, mantenibles y listos para usuarios reales."
+      },
+      {
+        "title": "Stack moderno, elegido con criterio",
+        "description": "React, NestJS y TypeScript como base, con la base de datos e integraciones que cada proyecto realmente necesita."
+      },
+      {
+        "title": "Integraciones que conectan tu operación",
+        "description": "WhatsApp, CRM, mapas, correo y automatizaciones cuando el negocio lo pide, no por agregar features de más."
+      }
+    ]
+  },
+  "aboutTeaser": {
+    "label": "Sobre mí",
+    "title": "Hola, soy Giacomo",
+    "p1": "Soy desarrollador full stack con formación en Ingeniería Civil en Computación en la Universidad Católica del Norte. Llevo experiencia entregando plataformas en producción para pymes y organizaciones públicas.",
+    "p2": "Me interesa resolver problemas concretos: menos planillas, más visibilidad, procesos que el equipo pueda usar sin fricción. Si trabajamos juntos, el objetivo es que tengas algo operativo, no solo un prototipo.",
+    "link": "Conoce más sobre mi trayectoria →"
+  },
+  "faq": {
+    "label": "Preguntas frecuentes",
+    "title": "Lo que suelen preguntarme antes de empezar",
+    "items": [
+      {
+        "question": "¿Qué tipo de proyectos desarrollas?",
+        "answer": "Plataformas web para gestión operativa, comercio B2B, captación de leads y sistemas con mapas o datos en terreno. Trabajo el producto completo: interfaz, backend, integraciones y despliegue."
+      },
+      {
+        "question": "¿Necesito saber de tecnología?",
+        "answer": "No. Tú conoces tu negocio; yo me encargo de traducir eso a una solución técnica y explicarte las decisiones importantes sin jerga innecesaria."
+      },
+      {
+        "question": "¿Cuál es tu stack principal?",
+        "answer": "React, NestJS y TypeScript, con MongoDB o PostgreSQL según el caso. Elijo herramientas según mantenibilidad, rendimiento y lo que el proyecto necesite integrar."
+      },
+      {
+        "question": "¿Trabajas de forma remota?",
+        "answer": "Sí. Estoy en La Serena y colaboro con clientes en Chile y fuera del país por videollamada, correo o WhatsApp."
+      },
+      {
+        "question": "¿Ofreces soporte después del lanzamiento?",
+        "answer": "Sí. Podemos acordar mantenimiento, mejoras o nuevas integraciones según lo que necesites una vez el sistema esté en producción."
+      },
+      {
+        "question": "¿Dónde puedo ver tu trabajo?",
+        "answer": "En la sección de proyectos hay casos reales con contexto, solución y tecnologías usadas. También puedes revisar mi perfil de GitHub."
+      }
+    ]
+  },
+  "cta": {
+    "label": "Contacto",
+    "title": "¿Conversamos sobre tu proyecto?",
+    "subtitle": "Disponible para proyectos freelance y oportunidades profesionales. Cuéntame qué quieres mejorar y vemos cómo abordarlo."
+  },
+  "projectsPage": {
+    "label": "Proyectos",
+    "title": "Proyectos completados",
+    "intro": "Casos reales para pymes y organizaciones públicas. Cada uno incluye el problema, la solución implementada y las tecnologías utilizadas."
+  },
+  "caseStudy": {
+    "problem": "El problema",
+    "solution": "La solución",
+    "result": "Resultado",
+    "stack": "Stack técnico",
+    "related": "Más proyectos",
+    "viewAll": "Ver todos los proyectos"
+  },
+  "projects": {
+    "categories": {
+      "operations": "Gestión operativa",
+      "commercial": "Gestión comercial B2B",
+      "leads": "Captación y automatización",
+      "geo": "Sistemas georreferenciados"
+    },
+    "categoriesShort": {
+      "operations": "Operativa",
+      "commercial": "Comercial B2B",
+      "leads": "Captación",
+      "geo": "Georreferenciados"
+    },
+    "status": {
+      "production": "En producción",
+      "completed": "Completado",
+      "in_progress": "En curso"
+    },
+    "items": {
+      "la-alpina-park": {
+        "title": "Plataforma de Gestión Operativa — La Alpina Park",
+        "shortTitle": "La Alpina Park",
+        "subtitle": "Ingeniero de software y desarrollador · Proyecto individual · Pista de motocross",
+        "excerpt": "Sistema para gestionar pilotos, asistencias, cobros y el día a día de la pista, con indicadores en tiempo real.",
+        "description": "Diseñé e implementé de forma integral una aplicación web para la gestión operativa diaria de la pista: administración de pilotos, programación de días de pista, registro de asistencias, cobros y pagos con historial de movimientos, y un panel de control con KPIs y gráficos de deudores y asistencia.",
+        "metrics": ["Indicadores y gráficos en tiempo real", "Cobros y asistencias centralizados", "Panel de deudores y KPIs", "Despliegue en Vercel y Railway"],
+        "problem": "La pista llevaba pilotos, días de pista y cobros en planillas. No había una vista clara de deudores, asistencias ni cómo iba la operación. Cada proceso —inscripciones, asistencia el día de carrera, cobros y seguimiento de pagos— dependía de registros manuales y archivos dispersos.",
+        "solution": "Definí la arquitectura del sistema (frontend SPA y backend REST) y desarrollé una plataforma web donde el equipo gestiona todo desde un solo lugar: pilotos, programación, asistencias y movimientos de cobro. Implementé el módulo de administración de usuarios con recuperación de contraseña por correo, un panel con los números que importan y gráficos de deudores y asistencia. El stack es React y NestJS con MongoDB; desplegué el frontend en Vercel y el backend en Railway.",
+        "result": "La operación quedó en un sistema en producción, con menos dependencia de planillas y visibilidad inmediata del estado de la pista. El equipo puede programar fechas, registrar asistencias, gestionar cobros y revisar indicadores sin salir de la plataforma."
+      },
+      "ventas-fama": {
+        "title": "Plataforma de Gestión Comercial — Ventas Fama",
+        "shortTitle": "Ventas Fama",
+        "subtitle": "Ingeniero de software y desarrollador · Práctica profesional · Empresa distribuidora",
+        "excerpt": "Plataforma conectada al ERP para mapas de clientes, catálogos PDF, alertas de vencimiento y módulos de formularios y análisis.",
+        "description": "Diseñé e implementé una plataforma web complementaria al ERP interno de una empresa distribuidora: visualización territorial de clientes, generación automatizada de catálogos PDF, alertas de vencimiento por WhatsApp y correo, encuestas y evaluaciones, y análisis de sus resultados.",
+        "metrics": ["Mapa interactivo de clientes desde el ERP", "Catálogos PDF automatizados", "Alertas de vencimiento por WhatsApp y correo", "Formularios y análisis de encuestas"],
+        "problem": "Los catálogos se armaban a mano en Canva, un proceso lento y poco escalable. Los datos comerciales vivían en el ERP, pero no había forma de ver la dispersión geográfica de clientes para planear rutas, ni alertas automáticas de vencimiento de lotes. Tampoco existía un canal estructurado para encuestas a clientes y proveedores ni para analizar esas respuestas.",
+        "solution": "Construí una aplicación conectada al ERP mediante API para obtener datos de clientes y productos; las imágenes de producto se cargan en la plataforma. Desarrollé un mapa interactivo con librerías de OpenStreetMap para visualizar la distribución de clientes y apoyar la planificación de rutas. Implementé generación asíncrona de catálogos PDF a partir de la información del ERP, alertas de vencimiento enviadas por WhatsApp y correo, un módulo de formularios para encuestas y evaluaciones de clientes y proveedores, y un módulo de análisis de datos sobre las respuestas recolectadas. La plataforma incluye autenticación por roles y quedó desplegada en Vercel y Railway.",
+        "result": "El equipo dejó de depender de Canva para los catálogos, cuenta con visibilidad territorial de su cartera a partir del ERP y recibe alertas automáticas de vencimiento. Los formularios y el análisis de datos permiten evaluar clientes y proveedores con información centralizada en la plataforma."
+      },
+      "laguna-roja": {
+        "title": "Captación y Gestión de Leads — Laguna Roja",
+        "shortTitle": "Laguna Roja",
+        "subtitle": "Ingeniero de software y desarrollador · Freelance · Inmobiliaria, Valle del Elqui",
+        "excerpt": "Ecosistema de captación de leads para parcelas: landings, CRM y automatización comercial, en evolución en tres fases.",
+        "description": "Proyecto freelance para Laguna Roja Inmobiliaria desarrollado en tres fases: landings en Hostinger conectadas a Kommo con Make, API de migración desplegada en Railway durante el cambio a Odoo, y automatización actual con n8n, Evolution API, OpenAI y Google Calendar.",
+        "metrics": ["Landings en Hostinger", "API en Railway", "Primer contacto automático por WhatsApp", "Proyecto en curso"],
+        "problem": "La inmobiliaria captaba prospectos desde campañas digitales, pero el flujo comercial dependía de tareas manuales y el equipo cambió de CRM en medio del proyecto. Necesitaban landings que alimentaran el sistema de ventas, reportes periódicos al equipo y, tras migrar a Odoo, automatizar el primer contacto con clientes, la agenda de reuniones y las alertas operativas.",
+        "solution": "En la primera fase creé las landing pages, las desplegué en Hostinger y las conecté a Kommo mediante webhooks en Make; también implementé un flujo de reportes por correo electrónico en Make. En la segunda fase, mientras se migraba de Kommo a Odoo, desarrollé una API en NestJS desplegada en Railway que trasladaba los leads del CRM antiguo al nuevo durante la transición. En la tercera fase actualicé las landing pages, reemplacé el webhook de Make por uno en n8n para conectarlas con Odoo, e integré Evolution API y OpenAI para el primer contacto automático con el cliente. Además conecté Google Calendar para agendar reuniones online en Meet o presenciales en los proyectos inmobiliarios, migré el sistema de alertas a n8n y lo amplié para que también lleguen por WhatsApp a través de Evolution API.",
+        "result": "El ecosistema fue evolucionando con cada etapa del negocio: hoy las landings alimentan Odoo, el equipo recibe alertas por correo y WhatsApp, y el primer contacto junto con la agenda de reuniones están automatizados. El proyecto sigue en curso, con mejoras y ajustes sobre la operación comercial."
+      },
+      "acamu": {
+        "title": "Gestión Comercial y Documental — ACAMU",
+        "shortTitle": "ACAMU",
+        "subtitle": "Ingeniero de software y desarrollador · Desarrollo individual · Exportadora de frutas, Perú",
+        "excerpt": "Portal único para administradores, proveedores y clientes, con trazabilidad documental por envío.",
+        "description": "Diseñé e implementé de forma integral una plataforma web para centralizar la gestión documental, comercial y operativa de una empresa exportadora de frutas, conectando a administradores, proveedores y clientes en un portal único con trazabilidad por envío.",
+        "metrics": ["Trazabilidad por envío", "Recordatorios automáticos de documentos", "Control de acceso por roles", "Notificaciones por correo"],
+        "problem": "La operación exportadora dependía de documentos dispersos y poca visibilidad del estado de certificaciones, órdenes y embarques. Proveedores, clientes y el equipo interno trabajaban con archivos sueltos, sin un registro único del ciclo exportador ni alertas de documentación pendiente.",
+        "solution": "Definí la arquitectura del sistema (frontend SPA y backend REST desacoplados), modelé el dominio de negocio exportador —certificaciones de proveedores y plantas de empaque, órdenes de compra, pagos, documentación de embarque y empresas transportistas— e incorporé control de acceso por roles, carga segura de documentos PDF, recordatorios automáticos de documentación pendiente y notificaciones por correo. Gestioné el despliegue del frontend en Vercel y del backend en Railway.",
+        "result": "Todos los actores operan en un solo lugar, con menos fricción documental y mejor seguimiento de cada envío. Las certificaciones, órdenes y embarques quedan trazados en la plataforma, con recordatorios que reducen retrasos por documentación incompleta."
+      },
+      "gp-performance": {
+        "title": "Gestión Operativa — GP-Performance",
+        "shortTitle": "GP-Performance",
+        "subtitle": "Ingeniero de software y desarrollador · Desarrollo individual · Taller automotriz",
+        "excerpt": "Sistema integral para órdenes de trabajo, inventario, facturación y flujo de caja del taller.",
+        "description": "Diseñé e implementé de forma integral una aplicación web para la gestión operativa y comercial de un taller automotriz, cubriendo el ciclo completo del negocio: clientes y vehículos, órdenes de trabajo, cotizaciones, inventario, ventas, facturación y flujo de caja.",
+        "metrics": ["Ciclo completo del taller unificado", "Base de datos modelada a medida", "Órdenes con seguimiento de estados", "Control de stock e inventario"],
+        "problem": "Clientes, órdenes, inventario y facturación vivían en herramientas separadas, generando duplicación y poca trazabilidad. El taller no tenía una vista única del estado de cada orden, del stock disponible ni del flujo de caja asociado a servicios y ventas.",
+        "solution": "Definí la arquitectura del sistema (backend REST con NestJS y frontend SPA con React), modelé la base de datos relacional en PostgreSQL y desarrollé módulos para clientes y vehículos, órdenes de trabajo con seguimiento de estados, cotizaciones, inventario con control de stock, ventas de productos y servicios, facturación, flujo de caja y comunicaciones con clientes. Gestioné el despliegue productivo en Vercel y Railway.",
+        "result": "El taller opera con un solo sistema en producción, con mejor seguimiento de órdenes, stock y caja. Desde la recepción del vehículo hasta la facturación, cada paso queda registrado en la misma plataforma."
+      },
+      "uoct": {
+        "title": "UOCT Connect — Gestión operativa",
+        "shortTitle": "UOCT Connect",
+        "subtitle": "Desarrollador principal y líder técnico · Equipo multidisciplinario · Región de Coquimbo",
+        "excerpt": "Aplicación para reportar incidentes viales en mapas OpenStreetMap, coordinar equipos en tiempo real y cruzar datos de Waze y CGE.",
+        "description": "Lideré el diseño e implementación de UOCT Connect, la aplicación web de la unidad operativa de control de tránsito de la Región de Coquimbo: reporte georreferenciado de incidentes, mapas con OpenStreetMap, chat en tiempo real por incidente e integraciones con Waze y CGE.",
+        "metrics": ["Mapas con OpenStreetMap", "Chat en tiempo real por incidente", "Integración con Waze", "Cortes eléctricos vía CGE"],
+        "problem": "La unidad necesitaba centralizar reportes de incidentes con ubicación precisa, coordinar al equipo en terreno y contar con datos históricos para decisiones operativas. No existía una plataforma única con mapa, comunicación en tiempo real por incidente ni integración con fuentes externas como atascos de Waze o cortes eléctricos de la CGE.",
+        "solution": "Definí la arquitectura del sistema (backend REST/WebSockets y frontend SPA), coordiné al equipo de desarrollo e implementé UOCT Connect con mapas basados en OpenStreetMap, monitoreo en tiempo real de incidentes y un chat en tiempo real asociado a cada uno. Integré Waze para visualizar y almacenar en la plataforma atascos e incidentes viales confiables, y conecté la CGE para visualizar y registrar cortes eléctricos. Gestioné el despliegue productivo en infraestructura local de la UOCT mediante Docker Compose y Jenkins.",
+        "result": "La UOCT dispone de UOCT Connect en producción para registrar, visualizar y analizar incidentes en la región. El equipo operativo coordina respuestas con chat por incidente, consulta mapas en tiempo real y cruza información de Waze y cortes eléctricos de la CGE para una visión más completa del territorio."
+      }
+    }
+  },
+  "aboutPage": {
+    "label": "Sobre mí",
+    "title": "Giacomo Baldessari Marchant",
+    "intro": "Desarrollador full stack en La Serena, Chile. Construyo aplicaciones web en producción para pymes y organizaciones públicas, con foco en claridad para el negocio y solidez técnica detrás.",
+    "approachTitle": "Mi enfoque",
+    "approachP1": "Antes de escribir código, entiendo qué proceso te está costando tiempo o dinero hoy. Con eso defino qué construir, en qué plazo y con qué herramientas — y también qué puede esperar.",
+    "approachP2": "Trabajo con React, NestJS y TypeScript, eligiendo bases de datos e integraciones según el proyecto. He llevado soluciones de punta a punta: arquitectura, desarrollo, integraciones y despliegue.",
+    "experienceLabel": "Experiencia",
+    "experienceTitle": "Experiencia laboral",
+    "experienceRole": "Desarrollador de Software Freelance",
+    "experienceStack": "React · NestJS · TypeScript",
+    "experiencePeriod": "Mayo 2025 — Actualidad",
+    "experienceDesc": "Desarrollo de aplicaciones web para pymes, APIs e integraciones con WhatsApp, CRM, mapas y automatizaciones. Despliegue en Vercel, Railway y Docker.",
+    "educationLabel": "Formación",
+    "educationTitle": "Educación",
+    "educationSchool": "Universidad Católica del Norte",
+    "educationDegree": "Ingeniería Civil en Computación e Informática · Sede Coquimbo",
+    "educationPeriod": "2021 — 2026",
+    "educationDesc": "Formación en programación, bases de datos, ingeniería de software y metodologías ágiles, con proyectos académicos y colaborativos en desarrollo full stack.",
+    "languagesTitle": "Idiomas",
+    "languages": [
+      { "name": "Español", "level": "Nativo" },
+      { "name": "Italiano", "level": "B2 (CILS)" },
+      { "name": "Inglés", "level": "B1/B2" }
+    ],
+    "stackLabel": "Tecnologías",
+    "stackTitle": "Stack tecnológico",
+    "stackDesc": "Python, TypeScript/JavaScript, Java y C/C++. Frontend con React; backend con NestJS; bases MySQL/MariaDB, PostgreSQL y MongoDB; despliegue con Docker, Vercel, Railway y Jenkins."
+  },
+  "contactPage": {
+    "label": "Contacto",
+    "title": "¿Trabajamos juntos?",
+    "intro": "Disponible para proyectos freelance y oportunidades profesionales. Escríbeme y te respondo lo antes posible.",
+    "formTitle": "Envíame un mensaje",
+    "otherTitle": "Otras formas de contacto",
+    "channelsIntro": "También puedes escribirme o revisar mi trabajo por estos canales.",
+    "channels": {
+      "email": "Correo",
+      "linkedin": "LinkedIn",
+      "github": "GitHub",
+      "cv": "Currículum",
+      "cvHint": "Descargar PDF"
+    },
+    "successTitle": "Mensaje enviado",
+    "successMessage": "Gracias por escribirme. Te responderé lo antes posible.",
+    "form": {
+      "name": "Nombre",
+      "email": "Correo",
+      "projectType": "Tipo de proyecto",
+      "message": "Mensaje",
+      "types": {
+        "freelance": "Proyecto freelance",
+        "job": "Oportunidad laboral",
+        "consulting": "Consultoría / asesoría",
+        "other": "Otro"
+      }
+    }
+  },
+  "notFound": {
+    "label": "Error 404",
+    "title": "404",
+    "heading": "Página no encontrada",
+    "message": "La ruta que buscas no existe o fue movida.",
+    "back": "Volver al inicio"
+  }
+}

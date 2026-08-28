@@ -1,0 +1,368 @@
+{
+  "meta": {
+    "siteName": "Giacomo Baldessari",
+    "defaultDescription": "Full stack developer in La Serena, Chile. Production-ready web platforms for SMEs and public organizations, built with React, NestJS, and real-world integrations.",
+    "home": {
+      "title": "Portfolio",
+      "description": "Full stack developer building production web platforms for SMEs and public organizations."
+    },
+    "projects": {
+      "title": "Projects",
+      "description": "Real production case studies: operations management, B2B commerce, lead capture, and geospatial systems."
+    },
+    "about": {
+      "title": "About",
+      "description": "Background, education, and working approach of Giacomo Baldessari, full stack developer in Chile."
+    },
+    "contact": {
+      "title": "Contact",
+      "description": "Get in touch for freelance projects, technical consulting, or professional opportunities."
+    },
+    "notFound": {
+      "title": "Page not found",
+      "description": "The page you are looking for does not exist or has been moved."
+    }
+  },
+  "nav": {
+    "home": "Home",
+    "projects": "Projects",
+    "about": "About",
+    "contact": "Contact",
+    "downloadCv": "Download CV",
+    "cv": "CV"
+  },
+  "a11y": {
+    "mainNav": "Main navigation",
+    "mobileNav": "Mobile navigation",
+    "footerNav": "Footer links",
+    "language": "Select language",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "switchToLight": "Switch to light mode",
+    "switchToDark": "Switch to dark mode"
+  },
+  "footer": {
+    "copyright": "© {{year}} Giacomo Baldessari. All rights reserved."
+  },
+  "common": {
+    "viewProjects": "View projects",
+    "contact": "Get in touch",
+    "viewCaseStudy": "View case study →",
+    "viewAllProjects": "View all projects",
+    "backHome": "← Back to home",
+    "learnMoreAbout": "Learn more about my background →",
+    "goToContact": "Go to contact",
+    "sendMessage": "Send message",
+    "sending": "Sending...",
+    "inProduction": "In production",
+    "completed": "Completed"
+  },
+  "hero": {
+    "label": "Portfolio",
+    "title": "Software that organizes your operations and scales with you",
+    "subtitle": "Giacomo Baldessari · Full Stack Developer · La Serena, Chile",
+    "description": "I design and build web platforms for SMEs and public organizations — from day-to-day operations to integrations with WhatsApp, CRM, maps, and the tools you already use. All deployed and running in production."
+  },
+  "socialProof": {
+    "platforms": { "value": "6+", "label": "completed projects" },
+    "stack": { "value": "Full Stack", "label": "React · NestJS · TypeScript" },
+    "integrations": { "value": "Integrations", "label": "WhatsApp · CRM · Maps · Ads" }
+  },
+  "services": {
+    "label": "Services",
+    "title": "What your business gains from the right platform",
+    "intro": "It is not just about a nice website. It is about replacing spreadsheets, connecting tools, and automating processes that currently eat up your team's time.",
+    "items": [
+      {
+        "title": "Digital operations management",
+        "description": "Centralize payments, inventory, attendance, or customers in one clear system — without relying on Excel and WhatsApp for everything.",
+        "client": "La Alpina Park",
+        "outcome": "Daily operations and KPIs in one dashboard",
+        "projectSlug": "la-alpina-park"
+      },
+      {
+        "title": "B2B commercial platforms",
+        "description": "Tools connected to your ERP: client maps, catalogs, expiry alerts, and forms with analytics for commercial teams.",
+        "client": "Ventas Fama",
+        "outcome": "Automated catalogs, territorial map, and expiry alerts",
+        "projectSlug": "ventas-fama"
+      },
+      {
+        "title": "Lead capture and automation",
+        "description": "High-converting landing pages, connected CRM, and automated follow-up so leads do not get lost between forms and spreadsheets.",
+        "client": "Laguna Roja",
+        "outcome": "Landings, CRM, and evolving sales automation",
+        "projectSlug": "laguna-roja"
+      },
+      {
+        "title": "Maps and field data systems",
+        "description": "Georeferenced applications and real-time monitoring for field operations, traffic control, or logistics.",
+        "client": "UOCT Connect",
+        "outcome": "Incidents, real-time chat, and Waze & CGE integrations",
+        "projectSlug": "uoct"
+      }
+    ]
+  },
+  "featuredProjects": {
+    "label": "Projects",
+    "title": "Three cases. Three outcomes.",
+    "intro": "Real production projects — not portfolio demos, but tools teams and businesses use today.",
+    "viewAll": "View all projects →"
+  },
+  "process": {
+    "label": "How I work",
+    "title": "From conversation to a working system",
+    "intro": "A clear process so you know what to expect — without unnecessary jargon or last-minute surprises.",
+    "steps": [
+      {
+        "title": "I understand what is costing you today",
+        "description": "We start with the business problem: what is manual, what information is missing, and what you want to improve. You do not need a technical background for this conversation."
+      },
+      {
+        "title": "I define scope, timeline, and stack",
+        "description": "I propose what to build first, how long it takes, and which tools to use. If a simpler solution works, I will say so before moving forward."
+      },
+      {
+        "title": "I build with visible progress",
+        "description": "I work in iterations with frequent reviews. You see real progress, give feedback, and we adjust before launch."
+      },
+      {
+        "title": "I deploy and leave it running",
+        "description": "The project includes production deployment, configuration, and what your team needs to start using it from day one."
+      },
+      {
+        "title": "I stay available afterward",
+        "description": "If you need an adjustment, a new integration, or something checked in production, we stay in direct contact."
+      }
+    ]
+  },
+  "whyMe": {
+    "label": "Why work with me",
+    "title": "Technical when it matters, clear always",
+    "items": [
+      {
+        "title": "You talk to the person who designs and builds",
+        "description": "No middlemen. I define the architecture, write the code, and answer your questions in the same channel."
+      },
+      {
+        "title": "I prioritize what works in production",
+        "description": "Less slide decks, more deployed systems that are maintainable and ready for real users."
+      },
+      {
+        "title": "Modern stack, chosen with purpose",
+        "description": "React, NestJS, and TypeScript as a base, with the database and integrations each project actually needs."
+      },
+      {
+        "title": "Integrations that connect your operations",
+        "description": "WhatsApp, CRM, maps, email, and automations when the business needs them — not to pad the feature list."
+      }
+    ]
+  },
+  "aboutTeaser": {
+    "label": "About",
+    "title": "Hi, I'm Giacomo",
+    "p1": "I'm a full stack developer with a degree in Computer Science Engineering from Universidad Católica del Norte. I have experience delivering production platforms for SMEs and public organizations.",
+    "p2": "I focus on concrete problems: fewer spreadsheets, more visibility, processes your team can actually use. If we work together, the goal is something operational — not just a prototype.",
+    "link": "Learn more about my background →"
+  },
+  "faq": {
+    "label": "FAQ",
+    "title": "What people usually ask before we start",
+    "items": [
+      {
+        "question": "What kind of projects do you build?",
+        "answer": "Web platforms for operations management, B2B commerce, lead capture, and map-based or field data systems. I handle the full product: interface, backend, integrations, and deployment."
+      },
+      {
+        "question": "Do I need a technical background?",
+        "answer": "No. You know your business; I translate that into a technical solution and explain the important decisions without unnecessary jargon."
+      },
+      {
+        "question": "What is your main stack?",
+        "answer": "React, NestJS, and TypeScript, with MongoDB or PostgreSQL depending on the case. I choose tools based on maintainability, performance, and what the project needs to integrate."
+      },
+      {
+        "question": "Do you work remotely?",
+        "answer": "Yes. I'm based in La Serena and work with clients across Chile and internationally via video call, email, or WhatsApp."
+      },
+      {
+        "question": "Do you offer post-launch support?",
+        "answer": "Yes. We can agree on maintenance, improvements, or new integrations once the system is in production."
+      },
+      {
+        "question": "Where can I see your work?",
+        "answer": "The projects section has real case studies with context, solution, and technologies used. You can also check my GitHub profile."
+      }
+    ]
+  },
+  "cta": {
+    "label": "Contact",
+    "title": "Let's talk about your project",
+    "subtitle": "Available for freelance projects and professional opportunities. Tell me what you want to improve and we will figure out how to approach it."
+  },
+  "projectsPage": {
+    "label": "Projects",
+    "title": "Completed projects",
+    "intro": "Real case studies for SMEs and public organizations. Each one includes the problem, the implemented solution, and the technologies used."
+  },
+  "caseStudy": {
+    "problem": "The problem",
+    "solution": "The solution",
+    "result": "Outcome",
+    "stack": "Tech stack",
+    "related": "More projects",
+    "viewAll": "View all projects"
+  },
+  "projects": {
+    "categories": {
+      "operations": "Operations management",
+      "commercial": "B2B commercial platform",
+      "leads": "Lead capture & automation",
+      "geo": "Geospatial systems"
+    },
+    "categoriesShort": {
+      "operations": "Operations",
+      "commercial": "B2B commercial",
+      "leads": "Lead capture",
+      "geo": "Geospatial"
+    },
+    "status": {
+      "production": "In production",
+      "completed": "Completed",
+      "in_progress": "In progress"
+    },
+    "items": {
+      "la-alpina-park": {
+        "title": "Operations Platform — La Alpina Park",
+        "shortTitle": "La Alpina Park",
+        "subtitle": "Software engineer & developer · Individual project · Motocross track",
+        "excerpt": "System to manage riders, attendance, payments, and daily track operations with real-time indicators.",
+        "description": "I designed and built end-to-end a web application for the track's daily operations: rider management, track day scheduling, attendance records, payments with transaction history, and a control panel with KPIs and charts for debtors and attendance.",
+        "metrics": ["Real-time KPIs and charts", "Centralized payments and attendance", "Debtor and KPI dashboard", "Deployed on Vercel and Railway"],
+        "problem": "The track managed riders, track days, and payments in spreadsheets. There was no clear view of debtors, attendance, or how operations were performing. Each process — registrations, race-day attendance, collections, and payment follow-up — relied on manual records and scattered files.",
+        "solution": "I defined the system architecture (SPA frontend and REST backend) and built a web platform where the team manages everything in one place: riders, scheduling, attendance, and payment movements. I implemented user administration with email password recovery, a dashboard with the numbers that matter, and charts for debtors and attendance. The stack is React and NestJS with MongoDB; I deployed the frontend on Vercel and the backend on Railway.",
+        "result": "Daily operations moved to a production system with less reliance on spreadsheets and immediate visibility into the track's status. The team can schedule dates, record attendance, manage payments, and review indicators without leaving the platform."
+      },
+      "ventas-fama": {
+        "title": "Commercial Platform — Ventas Fama",
+        "shortTitle": "Ventas Fama",
+        "subtitle": "Software engineer & developer · Professional internship · Distribution company",
+        "excerpt": "ERP-connected platform for client maps, PDF catalogs, expiry alerts, and forms and analytics modules.",
+        "description": "I designed and built a web platform that complements a distribution company's internal ERP: territorial client visualization, automated PDF catalog generation, expiry alerts via WhatsApp and email, surveys and evaluations, and analysis of their results.",
+        "metrics": ["Interactive client map from ERP data", "Automated PDF catalogs", "Expiry alerts via WhatsApp and email", "Forms and survey analytics"],
+        "problem": "Catalogs were built by hand in Canva — a slow, hard-to-scale process. Commercial data lived in the ERP, but there was no way to see clients' geographic dispersion for route planning, no automatic batch expiry alerts, and no structured channel for client and supplier surveys or to analyze those responses.",
+        "solution": "I built an application connected to the ERP via API to fetch client and product data; product images are uploaded on the platform. I developed an interactive map using OpenStreetMap libraries to visualize client distribution and support route planning. I implemented asynchronous PDF catalog generation from ERP data, expiry alerts sent via WhatsApp and email, a forms module for client and supplier surveys and evaluations, and a data analysis module for the collected responses. The platform includes role-based authentication and was deployed on Vercel and Railway.",
+        "result": "The team no longer depends on Canva for catalogs, has territorial visibility of their portfolio from ERP data, and receives automatic expiry alerts. Forms and data analysis let them evaluate clients and suppliers with information centralized on the platform."
+      },
+      "laguna-roja": {
+        "title": "Lead Capture & Management — Laguna Roja",
+        "shortTitle": "Laguna Roja",
+        "subtitle": "Software engineer & developer · Freelance · Real estate, Elqui Valley",
+        "excerpt": "Lead capture ecosystem for land plots: landing pages, CRM, and sales automation evolved across three phases.",
+        "description": "Freelance project for Laguna Roja Inmobiliaria built in three phases: landing pages on Hostinger connected to Kommo via Make, a migration API deployed on Railway during the move to Odoo, and current automation with n8n, Evolution API, OpenAI, and Google Calendar.",
+        "metrics": ["Landing pages on Hostinger", "API on Railway", "Automated first contact via WhatsApp", "Project in progress"],
+        "problem": "The real estate company captured prospects from digital campaigns, but the sales flow relied on manual tasks and the team changed CRM mid-project. They needed landing pages feeding the sales system, periodic team reports, and — after moving to Odoo — automation for first client contact, meeting scheduling, and operational alerts.",
+        "solution": "In phase one I built the landing pages, deployed them on Hostinger, and connected them to Kommo through webhooks in Make; I also set up an email reporting flow in Make. In phase two, while migrating from Kommo to Odoo, I developed a NestJS API deployed on Railway that moved leads from the old CRM to the new one during the transition. In phase three I updated the landing pages, replaced the Make webhook with one in n8n to connect them to Odoo, and integrated Evolution API and OpenAI for automated first contact with prospects. I also connected Google Calendar to schedule online Meet calls or in-person meetings at the real estate projects, migrated the alert system to n8n, and extended it so alerts also arrive via WhatsApp through Evolution API.",
+        "result": "The ecosystem evolved with each stage of the business: today the landing pages feed Odoo, the team receives alerts by email and WhatsApp, and first contact plus meeting scheduling are automated. The project is still in progress, with ongoing improvements to the commercial operation."
+      },
+      "acamu": {
+        "title": "Commercial & Document Management — ACAMU",
+        "shortTitle": "ACAMU",
+        "subtitle": "Software engineer & developer · Individual project · Fruit exporter, Peru",
+        "excerpt": "Single portal for admins, suppliers, and clients with document traceability per shipment.",
+        "description": "I designed and built end-to-end a web platform to centralize document, commercial, and operational management for a fruit export company, connecting administrators, suppliers, and clients in a single portal with traceability per shipment.",
+        "metrics": ["Traceability per shipment", "Automatic document reminders", "Role-based access control", "Email notifications"],
+        "problem": "The export operation relied on scattered documents and limited visibility into certifications, orders, and shipments. Suppliers, clients, and the internal team worked with loose files, without a single record of the export cycle or alerts for pending documentation.",
+        "solution": "I defined the system architecture (decoupled SPA frontend and REST backend), modeled the export business domain — supplier and packing plant certifications, purchase orders, payments, shipping documentation, and transport companies — and implemented role-based access, secure PDF uploads, automatic reminders for pending documentation, and email notifications. I deployed the frontend on Vercel and the backend on Railway.",
+        "result": "All stakeholders operate in one place with less document friction and better shipment tracking. Certifications, orders, and shipments are traced on the platform, with reminders that reduce delays from incomplete documentation."
+      },
+      "gp-performance": {
+        "title": "Operations System — GP-Performance",
+        "shortTitle": "GP-Performance",
+        "subtitle": "Software engineer & developer · Individual project · Auto repair shop",
+        "excerpt": "End-to-end system for work orders, inventory, invoicing, and cash flow.",
+        "description": "I designed and built end-to-end a web application for the operational and commercial management of an auto repair shop, covering the full business cycle: clients and vehicles, work orders, quotes, inventory, sales, invoicing, and cash flow.",
+        "metrics": ["Full shop cycle in one system", "Custom-modeled database", "Work orders with status tracking", "Stock and inventory control"],
+        "problem": "Clients, orders, inventory, and invoicing lived in separate tools, causing duplication and poor traceability. The shop had no single view of each order's status, available stock, or cash flow tied to services and sales.",
+        "solution": "I defined the system architecture (NestJS REST backend and React SPA frontend), modeled the relational database in PostgreSQL, and built modules for clients and vehicles, work orders with status tracking, quotes, inventory with stock control, product and service sales, invoicing, cash flow, and client communications. I managed production deployment on Vercel and Railway.",
+        "result": "The shop runs on a single production system with better order, stock, and cash flow tracking. From vehicle intake to invoicing, every step is recorded on the same platform."
+      },
+      "uoct": {
+        "title": "UOCT Connect — Operations platform",
+        "shortTitle": "UOCT Connect",
+        "subtitle": "Lead developer & technical lead · Multidisciplinary team · Coquimbo Region",
+        "excerpt": "Application to report road incidents on OpenStreetMap, coordinate teams in real time, and cross-reference Waze and CGE data.",
+        "description": "I led the design and implementation of UOCT Connect, the web application for the Coquimbo Region traffic control operations unit: georeferenced incident reporting, OpenStreetMap-based maps, real-time chat per incident, and integrations with Waze and CGE.",
+        "metrics": ["OpenStreetMap-based maps", "Real-time chat per incident", "Waze integration", "Power outages via CGE"],
+        "problem": "The unit needed to centralize incident reports with precise location, coordinate field teams, and rely on historical data for operational decisions. There was no single platform with a map, real-time communication per incident, or integration with external sources such as Waze traffic jams or CGE power outages.",
+        "solution": "I defined the system architecture (REST/WebSockets backend and SPA frontend), coordinated the development team, and built UOCT Connect with OpenStreetMap-based maps, real-time incident monitoring, and a real-time chat tied to each incident. I integrated Waze to visualize and store reliable traffic jams and road incidents on the platform, and connected CGE to visualize and record power outages. I managed production deployment on local UOCT infrastructure with Docker Compose and Jenkins.",
+        "result": "The UOCT runs UOCT Connect in production to record, visualize, and analyze incidents across the region. The operations team coordinates responses with per-incident chat, monitors real-time maps, and cross-references Waze data and CGE power outages for a fuller picture of the territory."
+      }
+    }
+  },
+  "aboutPage": {
+    "label": "About",
+    "title": "Giacomo Baldessari Marchant",
+    "intro": "Full stack developer in La Serena, Chile. I build production web applications for SMEs and public organizations, with clarity for the business and solid engineering behind it.",
+    "approachTitle": "My approach",
+    "approachP1": "Before writing code, I understand which process is costing you time or money today. From there I define what to build, the timeline, and the tools — and also what can wait.",
+    "approachP2": "I work with React, NestJS, and TypeScript, choosing databases and integrations per project. I have delivered end-to-end solutions: architecture, development, integrations, and deployment.",
+    "experienceLabel": "Experience",
+    "experienceTitle": "Work experience",
+    "experienceRole": "Freelance Software Developer",
+    "experienceStack": "React · NestJS · TypeScript",
+    "experiencePeriod": "May 2025 — Present",
+    "experienceDesc": "Web applications for SMEs, APIs, and integrations with WhatsApp, CRM, maps, and automations. Deployment on Vercel, Railway, and Docker.",
+    "educationLabel": "Education",
+    "educationTitle": "Education",
+    "educationSchool": "Universidad Católica del Norte",
+    "educationDegree": "Computer Science Engineering · Coquimbo campus",
+    "educationPeriod": "2021 — 2026",
+    "educationDesc": "Training in programming, databases, software engineering, and agile methodologies, with academic and collaborative full stack projects.",
+    "languagesTitle": "Languages",
+    "languages": [
+      { "name": "Spanish", "level": "Native" },
+      { "name": "Italian", "level": "B2 (CILS)" },
+      { "name": "English", "level": "B1/B2" }
+    ],
+    "stackLabel": "Technologies",
+    "stackTitle": "Tech stack",
+    "stackDesc": "Python, TypeScript/JavaScript, Java, and C/C++. Frontend with React; backend with NestJS; databases MySQL/MariaDB, PostgreSQL, and MongoDB; deployment with Docker, Vercel, Railway, and Jenkins."
+  },
+  "contactPage": {
+    "label": "Contact",
+    "title": "Let's work together",
+    "intro": "Available for freelance projects and professional opportunities. Write to me and I will get back to you as soon as possible.",
+    "formTitle": "Send me a message",
+    "otherTitle": "Other ways to reach me",
+    "channelsIntro": "You can also reach out or explore my work through these channels.",
+    "channels": {
+      "email": "Email",
+      "linkedin": "LinkedIn",
+      "github": "GitHub",
+      "cv": "Resume",
+      "cvHint": "Download PDF"
+    },
+    "successTitle": "Message sent",
+    "successMessage": "Thanks for reaching out. I will reply as soon as possible.",
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "projectType": "Project type",
+      "message": "Message",
+      "types": {
+        "freelance": "Freelance project",
+        "job": "Job opportunity",
+        "consulting": "Consulting",
+        "other": "Other"
+      }
+    }
+  },
+  "notFound": {
+    "label": "Error 404",
+    "title": "404",
+    "heading": "Page not found",
+    "message": "The route you are looking for does not exist or has been moved.",
+    "back": "Back to home"
+  }
+}

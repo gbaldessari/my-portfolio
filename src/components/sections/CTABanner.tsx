@@ -1,0 +1,28 @@
+import { Link } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
+import { useLocalizedPath } from '../../hooks/useLocalizedPath';
+import Reveal from '../ui/Reveal';
+import './sections.css';
+
+function CTABanner() {
+  const { t } = useTranslation();
+  const paths = useLocalizedPath();
+
+  return (
+    <section id="contacto" className="section-anchor">
+      <Reveal>
+        <div className="contact-section">
+          <span className="section-label">{t('cta.label')}</span>
+          <h1>{t('cta.title')}</h1>
+          <p className="contact-subtitle">{t('cta.subtitle')}</p>
+          <div className="hero-actions">
+            <Link to={paths.contact} className="btn btn-primary">{t('common.goToContact')}</Link>
+            <Link to={paths.projects} className="btn btn-secondary">{t('common.viewProjects')}</Link>
+          </div>
+        </div>
+      </Reveal>
+    </section>
+  );
+}
+
+export default CTABanner;

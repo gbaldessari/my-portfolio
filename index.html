@@ -3,17 +3,28 @@
 
 <head>
   <meta charset="UTF-8" />
-  <link id="favicon" rel="icon" type="image/png" href="./assets/icons/icoBlanco.png" />
+  <link id="favicon" rel="icon" type="image/png" href="/assets/icons/icoBlanco.png" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
-  <title>Giacomo Baldessari</title>
+  <meta name="description" content="Desarrollador full stack en La Serena, Chile. Plataformas web para pymes y organizaciones públicas." />
+  <meta name="theme-color" content="#0a0f1a" />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Giacomo Baldessari" />
+  <meta property="og:locale" content="es_CL" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <title>Giacomo Baldessari — Desarrollador Full Stack</title>
   <script>
-    const updateFavicon = () => {
-      const favicon = document.getElementById('favicon');
-      const isDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches;
-      favicon.href = isDarkMode ? "./assets/icons/icoBlanco.png" : "./assets/icons/icoNegro.png";
-    };
-    window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', updateFavicon);
-    updateFavicon();
+    (function () {
+      var stored = localStorage.getItem('portfolio-theme');
+      var theme = stored === 'light' || stored === 'dark'
+        ? stored
+        : (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+      document.documentElement.dataset.theme = theme;
+      document.documentElement.style.colorScheme = theme;
+      var favicon = document.getElementById('favicon');
+      if (favicon) {
+        favicon.href = theme === 'dark' ? '/assets/icons/icoBlanco.png' : '/assets/icons/icoNegro.png';
+      }
+    })();
   </script>
 </head>
 

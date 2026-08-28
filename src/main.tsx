@@ -1,10 +1,14 @@
 import ReactDOM from 'react-dom/client';
+import { BrowserRouter } from 'react-router-dom';
 import App from './App.tsx';
+import { ThemeProvider } from './context/ThemeContext';
+import './i18n';
 import './index.css';
 
-/**
- * Punto de entrada principal de la aplicación.
- */
 ReactDOM.createRoot(document.getElementById('root')!).render(
-  <App />
+  <BrowserRouter>
+    <ThemeProvider>
+      <App />
+    </ThemeProvider>
+  </BrowserRouter>,
 );
