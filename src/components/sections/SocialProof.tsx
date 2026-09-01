@@ -7,7 +7,7 @@ function SocialProof() {
   const stats = ['platforms', 'stack', 'integrations'] as const;
 
   return (
-    <section className="social-proof">
+    <aside className="social-proof">
       <div className="social-proof-grid">
         {stats.map((key, index) => (
           <Reveal key={key} delay={index * 80}>
@@ -18,7 +18,7 @@ function SocialProof() {
           </Reveal>
         ))}
       </div>
-    </section>
+    </aside>
   );
 }
 

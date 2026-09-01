@@ -13,7 +13,7 @@ function FAQ() {
   const items = t('faq.items', { returnObjects: true }) as FAQItem[];
 
   return (
-    <section id="faq" className="section-anchor">
+    <section id="faq" className="section-anchor faq-section">
       <div className="section">
         <Reveal>
           <span className="section-label">{t('faq.label')}</span>

@@ -15,9 +15,9 @@
 .tag--category {
   font-weight: 500;
   color: var(--text-secondary);
-  background: transparent;
+  background: color-mix(in srgb, var(--bg-base) 55%, transparent);
   border-color: var(--border-strong);
-  border-radius: var(--radius-sm, 0.375rem);
+  border-radius: 999px;
 }
 
 .tag--status {
@@ -38,37 +38,37 @@
 }
 
 .tag--status.tag--completed {
-  color: #4ade80;
-  background: rgba(74, 222, 128, 0.12);
-  border: 1px solid rgba(74, 222, 128, 0.35);
+  color: #6fbf7a;
+  background: rgba(111, 191, 122, 0.12);
+  border: 1px solid rgba(111, 191, 122, 0.32);
 }
 
 .tag--status.tag--in_progress {
-  color: #fbbf24;
-  background: rgba(251, 191, 36, 0.12);
-  border: 1px solid rgba(251, 191, 36, 0.35);
+  color: #e0a14a;
+  background: rgba(224, 161, 74, 0.12);
+  border: 1px solid rgba(224, 161, 74, 0.32);
 }
 
 .tag--status.tag--production {
-  color: #60a5fa;
-  background: rgba(96, 165, 250, 0.12);
-  border: 1px solid rgba(96, 165, 250, 0.35);
+  color: #5ec8d4;
+  background: rgba(94, 200, 212, 0.12);
+  border: 1px solid rgba(94, 200, 212, 0.32);
 }
 
 [data-theme='light'] .tag--status.tag--completed {
-  color: #15803d;
-  background: rgba(22, 163, 74, 0.1);
-  border-color: rgba(22, 163, 74, 0.28);
+  color: #2f6f3e;
+  background: rgba(47, 111, 62, 0.1);
+  border-color: rgba(47, 111, 62, 0.25);
 }
 
 [data-theme='light'] .tag--status.tag--in_progress {
-  color: #b45309;
-  background: rgba(245, 158, 11, 0.12);
-  border-color: rgba(245, 158, 11, 0.3);
+  color: #b45d16;
+  background: rgba(232, 93, 36, 0.1);
+  border-color: rgba(232, 93, 36, 0.25);
 }
 
 [data-theme='light'] .tag--status.tag--production {
-  color: #1d4ed8;
-  background: rgba(37, 99, 235, 0.1);
-  border-color: rgba(37, 99, 235, 0.28);
+  color: #0f7a86;
+  background: rgba(15, 122, 134, 0.1);
+  border-color: rgba(15, 122, 134, 0.25);
 }

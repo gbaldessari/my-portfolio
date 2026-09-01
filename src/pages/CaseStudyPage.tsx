@@ -1,6 +1,7 @@
 import { Link, Navigate, useParams } from 'react-router-dom';
 import { useMemo } from 'react';
 import { useTranslation } from 'react-i18next';
+import { FaWhatsapp } from 'react-icons/fa';
 import { getProjectBySlug, getRelatedProjects } from '../content/projects';
 import ProjectCard from '../components/ui/ProjectCard';
 import Tag from '../components/ui/Tag';
@@ -8,6 +9,7 @@ import Reveal from '../components/ui/Reveal';
 import JsonLd from '../components/seo/JsonLd';
 import { toAbsoluteUrl } from '../config/site';
 import { useLocalizedPath } from '../hooks/useLocalizedPath';
+import WhatsAppLink from '../components/WhatsAppLink';
 import { usePageSeo } from '../hooks/usePageSeo';
 import { createBreadcrumbSchema, createProjectSchema } from '../seo/jsonLd';
 import './page.css';
@@ -118,7 +120,10 @@ function CaseStudyPage() {
 
         <div className="case-study-actions">
           <Link to={paths.projects} className="btn btn-secondary">{t('caseStudy.viewAll')}</Link>
-          <Link to={paths.contact} className="btn btn-primary">{t('common.contact')}</Link>
+          <WhatsAppLink className="btn btn-whatsapp">
+            <FaWhatsapp aria-hidden="true" />
+            {t('common.contactWhatsApp')}
+          </WhatsAppLink>
         </div>
 
         {relatedProjects.length > 0 && (

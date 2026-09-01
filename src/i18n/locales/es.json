@@ -8,7 +8,7 @@
     },
     "projects": {
       "title": "Proyectos",
-      "description": "Casos reales de plataformas en producción: gestión operativa, comercio B2B, captación de leads y sistemas georreferenciados."
+      "description": "Casos reales de plataformas en producción: gestión operativa, comercio B2B, herramientas para la captación de leads y sistemas georreferenciados."
     },
     "about": {
       "title": "Sobre mí",
@@ -16,7 +16,7 @@
     },
     "contact": {
       "title": "Contacto",
-      "description": "Escríbeme para proyectos freelance, consultoría técnica u oportunidades profesionales."
+      "description": "Escríbeme por WhatsApp para proyectos freelance, consultoría técnica u oportunidades profesionales."
     },
     "notFound": {
       "title": "Página no encontrada",
@@ -52,21 +52,23 @@
     "backHome": "← Volver al inicio",
     "learnMoreAbout": "Conoce más sobre mi trayectoria →",
     "goToContact": "Ir a contacto",
-    "sendMessage": "Enviar mensaje",
-    "sending": "Enviando...",
+    "contactWhatsApp": "Escribir por WhatsApp",
     "inProduction": "En producción",
     "completed": "Completado"
   },
   "hero": {
-    "label": "Portafolio",
-    "title": "Software que ordena tu operación y escala contigo",
+    "label": "Desarrollo web a medida",
+    "title": "Construyo el software que tu negocio necesita para operar mejor",
     "subtitle": "Giacomo Baldessari · Desarrollador Full Stack · La Serena, Chile",
-    "description": "Diseño y desarrollo plataformas web para pymes y organizaciones públicas: desde la gestión del día a día hasta integraciones con WhatsApp, CRM, mapas y herramientas que ya usas. Todo desplegado y funcionando en producción."
+    "description": "Trabajo con pymes y organizaciones que quieren dejar atrás procesos manuales: plataformas web, integraciones y herramientas en producción. Escríbeme por WhatsApp y vemos si encajo con lo que buscas."
+  },
+  "whatsapp": {
+    "defaultMessage": "Hola Giacomo, me interesa conversar sobre un proyecto web."
   },
   "socialProof": {
     "platforms": { "value": "6+", "label": "proyectos completados" },
     "stack": { "value": "Full Stack", "label": "React · NestJS · TypeScript" },
-    "integrations": { "value": "Integraciones", "label": "WhatsApp · CRM · Mapas · Ads" }
+    "integrations": { "value": "Integraciones", "label": "WhatsApp · CRM · Mapas" }
   },
   "services": {
     "label": "Servicios",
@@ -171,7 +173,23 @@
     "items": [
       {
         "question": "¿Qué tipo de proyectos desarrollas?",
-        "answer": "Plataformas web para gestión operativa, comercio B2B, captación de leads y sistemas con mapas o datos en terreno. Trabajo el producto completo: interfaz, backend, integraciones y despliegue."
+        "answer": "Plataformas web para gestión operativa, comercio B2B, herramientas para la captación de leads y sistemas con mapas o datos en terreno. Trabajo el producto completo: interfaz, backend, integraciones y despliegue."
+      },
+      {
+        "question": "¿Cuánto cuesta un proyecto?",
+        "answer": "Depende del alcance y la complejidad. Como referencia orientativa: las landing pages suelen partir desde las 8 UF y las aplicaciones web desde las 25 UF. En la primera conversación te doy un rango según lo que necesitas."
+      },
+      {
+        "question": "¿Cómo se cotiza?",
+        "answer": "Por fases. Primero acordamos el alcance de cada etapa, entregables y plazos; así puedes avanzar por partes sin comprometer todo el presupuesto de una vez."
+      },
+      {
+        "question": "¿Cuánto demora?",
+        "answer": "Aproximadamente entre 3 y 6 semanas, según el alcance del proyecto y la velocidad de feedback. Proyectos más grandes se dividen en fases con plazos propios."
+      },
+      {
+        "question": "¿Qué necesito para empezar?",
+        "answer": "Idealmente una idea concreta: qué problema quieres resolver, qué funciones necesitas y qué alcance imaginas. No tiene que estar perfecto; con una conversación inicial lo vamos afinando."
       },
       {
         "question": "¿Necesito saber de tecnología?",
@@ -198,7 +216,7 @@
   "cta": {
     "label": "Contacto",
     "title": "¿Conversamos sobre tu proyecto?",
-    "subtitle": "Disponible para proyectos freelance y oportunidades profesionales. Cuéntame qué quieres mejorar y vemos cómo abordarlo."
+    "subtitle": "Escríbeme por WhatsApp con tu idea o el problema que quieres resolver. Te respondo lo antes posible."
   },
   "projectsPage": {
     "label": "Proyectos",
@@ -332,30 +350,19 @@
   "contactPage": {
     "label": "Contacto",
     "title": "¿Trabajamos juntos?",
-    "intro": "Disponible para proyectos freelance y oportunidades profesionales. Escríbeme y te respondo lo antes posible.",
-    "formTitle": "Envíame un mensaje",
-    "otherTitle": "Otras formas de contacto",
-    "channelsIntro": "También puedes escribirme o revisar mi trabajo por estos canales.",
+    "intro": "La forma más rápida de conversar es por WhatsApp. También puedes escribirme por correo o LinkedIn.",
+    "whatsappTitle": "Escríbeme por WhatsApp",
+    "whatsappIntro": "Cuéntame tu idea o el problema que quieres resolver. Te respondo lo antes posible.",
+    "whatsappCta": "Abrir WhatsApp",
+    "channelsTitle": "Otros canales",
+    "channelsIntro": "Si prefieres otro medio o quieres revisar mi trabajo:",
     "channels": {
+      "whatsapp": "WhatsApp",
       "email": "Correo",
       "linkedin": "LinkedIn",
       "github": "GitHub",
       "cv": "Currículum",
       "cvHint": "Descargar PDF"
-    },
-    "successTitle": "Mensaje enviado",
-    "successMessage": "Gracias por escribirme. Te responderé lo antes posible.",
-    "form": {
-      "name": "Nombre",
-      "email": "Correo",
-      "projectType": "Tipo de proyecto",
-      "message": "Mensaje",
-      "types": {
-        "freelance": "Proyecto freelance",
-        "job": "Oportunidad laboral",
-        "consulting": "Consultoría / asesoría",
-        "other": "Otro"
-      }
     }
   },
   "notFound": {

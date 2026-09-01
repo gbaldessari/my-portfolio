@@ -29,7 +29,7 @@ function AboutPage() {
         </Reveal>
 
         <Reveal delay={60}>
-          <section className="section">
+          <section className="page-section">
             <h2>{t('aboutPage.approachTitle')}</h2>
             <p>{t('aboutPage.approachP1')}</p>
             <p>{t('aboutPage.approachP2')}</p>
@@ -37,7 +37,7 @@ function AboutPage() {
         </Reveal>
 
         <Reveal delay={80}>
-          <section className="section">
+          <section className="page-section">
             <span className="section-label">{t('aboutPage.experienceLabel')}</span>
             <h2>{t('aboutPage.experienceTitle')}</h2>
             <div className="education-card">
@@ -55,7 +55,7 @@ function AboutPage() {
         </Reveal>
 
         <Reveal delay={100}>
-          <section className="section">
+          <section className="page-section">
             <span className="section-label">{t('aboutPage.educationLabel')}</span>
             <h2>{t('aboutPage.educationTitle')}</h2>
             <div className="education-card">
@@ -84,7 +84,7 @@ function AboutPage() {
         </Reveal>
 
         <Reveal delay={120}>
-          <section className="section">
+          <section className="page-section page-section--flush">
             <span className="section-label">{t('aboutPage.stackLabel')}</span>
             <h2>{t('aboutPage.stackTitle')}</h2>
             <p>{t('aboutPage.stackDesc')}</p>

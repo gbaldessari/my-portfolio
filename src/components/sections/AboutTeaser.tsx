@@ -10,17 +10,21 @@ function AboutTeaser() {
 
   return (
     <section id="sobre-mi" className="section-anchor">
-      <div className="section">
-        <Reveal>
-          <span className="section-label">{t('aboutTeaser.label')}</span>
-          <h1>{t('aboutTeaser.title')}</h1>
-          <p>{t('aboutTeaser.p1')}</p>
-          <p>{t('aboutTeaser.p2')}</p>
-          <p>
-            <Link to={paths.about}>{t('aboutTeaser.link')}</Link>
-          </p>
-        </Reveal>
-      </div>
+      <Reveal>
+        <div className="about-teaser-grid">
+          <div>
+            <span className="section-label">{t('aboutTeaser.label')}</span>
+            <h1>{t('aboutTeaser.title')}</h1>
+          </div>
+          <div className="about-teaser-copy">
+            <p>{t('aboutTeaser.p1')}</p>
+            <p>{t('aboutTeaser.p2')}</p>
+            <p>
+              <Link to={paths.about}>{t('aboutTeaser.link')}</Link>
+            </p>
+          </div>
+        </div>
+      </Reveal>
     </section>
   );
 }

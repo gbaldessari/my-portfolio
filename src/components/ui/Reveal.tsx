@@ -10,7 +10,7 @@ interface RevealProps {
 
 function Reveal({ children, className = '', delay = 0 }: RevealProps) {
   const ref = useRef<HTMLDivElement>(null);
-  const isInView = useInView(ref, { threshold: 0.1, once: false });
+  const isInView = useInView(ref, { threshold: 0.05, rootMargin: '0px 0px -24px 0px', once: true });
 
   return (
     <div

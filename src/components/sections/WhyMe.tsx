@@ -12,7 +12,7 @@ function WhyMe() {
   const items = t('whyMe.items', { returnObjects: true }) as WhyItem[];
 
   return (
-    <section id="por-que" className="section-anchor">
+    <section id="por-que" className="section-anchor section-anchor--tint">
       <div className="section">
         <Reveal>
           <span className="section-label">{t('whyMe.label')}</span>

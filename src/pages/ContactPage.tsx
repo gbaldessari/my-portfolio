@@ -1,13 +1,13 @@
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
-import { FaEnvelope, FaGithub, FaLinkedin, FaFileAlt, FaArrowRight } from 'react-icons/fa';
-import ContactForm from '../components/ContactForm';
+import { FaArrowRight, FaEnvelope, FaFileAlt, FaGithub, FaLinkedin } from 'react-icons/fa';
+import WhatsAppLink from '../components/WhatsAppLink';
 import Reveal from '../components/ui/Reveal';
 import { CV_PATH } from '../config/navigation';
 import { useLocalizedPath } from '../hooks/useLocalizedPath';
 import { usePageSeo } from '../hooks/usePageSeo';
 import './page.css';
-import '../components/contact-form.css';
+import '../components/contact-page.css';
 
 const CONTACT_CHANNELS = [
   {
@@ -61,51 +61,50 @@ function ContactPage() {
           </section>
         </Reveal>
 
-        <div className="contact-layout">
-          <Reveal delay={60}>
-            <section className="page-section contact-form-section">
-              <h2>{t('contactPage.formTitle')}</h2>
-              <ContactForm />
-            </section>
-          </Reveal>
+        <Reveal delay={60}>
+          <section className="page-section contact-whatsapp-section">
+            <h2>{t('contactPage.whatsappTitle')}</h2>
+            <p className="contact-whatsapp-intro">{t('contactPage.whatsappIntro')}</p>
+            <WhatsAppLink className="btn btn-whatsapp contact-whatsapp-cta" />
+          </section>
+        </Reveal>
 
-          <Reveal delay={100}>
-            <aside className="page-section contact-channels">
-              <h2>{t('contactPage.otherTitle')}</h2>
-              <p className="contact-channels-intro">{t('contactPage.channelsIntro')}</p>
-              <ul className="contact-channel-list">
-                {CONTACT_CHANNELS.map((channel) => {
-                  const Icon = channel.icon;
-                  const value = 'valueKey' in channel && channel.valueKey
-                    ? t(channel.valueKey)
-                    : channel.value;
+        <Reveal delay={100}>
+          <section className="page-section contact-channels">
+            <h2>{t('contactPage.channelsTitle')}</h2>
+            <p className="contact-channels-intro">{t('contactPage.channelsIntro')}</p>
+            <ul className="contact-channel-list">
+              {CONTACT_CHANNELS.map((channel) => {
+                const Icon = channel.icon;
+                const value = 'valueKey' in channel && channel.valueKey
+                  ? t(channel.valueKey)
+                  : channel.value;
 
-                  return (
-                    <li key={channel.id}>
-                      <a
-                        href={channel.href}
-                        className="contact-channel-item"
-                        {...(channel.external
-                          ? { target: '_blank', rel: 'noopener noreferrer' }
-                          : {})}
-                        {...('download' in channel && channel.download ? { download: true } : {})}
-                      >
-                        <span className="contact-channel-icon" aria-hidden="true">
-                          <Icon />
-                        </span>
-                        <span className="contact-channel-text">
-                          <span className="contact-channel-label">{t(channel.labelKey)}</span>
-                          <span className="contact-channel-value">{value}</span>
-                        </span>
-                        <FaArrowRight className="contact-channel-arrow" aria-hidden="true" />
-                      </a>
-                    </li>
-                  );
-                })}
-              </ul>
-            </aside>
-          </Reveal>
-        </div>
+                return (
+                  <li key={channel.id}>
+                    <a
+                      href={channel.href}
+                      className="contact-channel-item"
+                      {...(channel.external
+                        ? { target: '_blank', rel: 'noopener noreferrer' }
+                        : {})}
+                      {...('download' in channel && channel.download ? { download: true } : {})}
+                    >
+                      <span className="contact-channel-icon" aria-hidden="true">
+                        <Icon />
+                      </span>
+                      <span className="contact-channel-text">
+                        <span className="contact-channel-label">{t(channel.labelKey)}</span>
+                        <span className="contact-channel-value">{value}</span>
+                      </span>
+                      <FaArrowRight className="contact-channel-arrow" aria-hidden="true" />
+                    </a>
+                  </li>
+                );
+              })}
+            </ul>
+          </section>
+        </Reveal>
 
         <p className="page-back-link">
           <Link to={paths.home}>{t('common.backHome')}</Link>

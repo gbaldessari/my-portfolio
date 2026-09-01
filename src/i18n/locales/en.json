@@ -8,7 +8,7 @@
     },
     "projects": {
       "title": "Projects",
-      "description": "Real production case studies: operations management, B2B commerce, lead capture, and geospatial systems."
+      "description": "Real production case studies: operations management, B2B commerce, tools for lead capture, and geospatial systems."
     },
     "about": {
       "title": "About",
@@ -16,7 +16,7 @@
     },
     "contact": {
       "title": "Contact",
-      "description": "Get in touch for freelance projects, technical consulting, or professional opportunities."
+      "description": "Message me on WhatsApp for freelance projects, technical consulting, or professional opportunities."
     },
     "notFound": {
       "title": "Page not found",
@@ -52,21 +52,23 @@
     "backHome": "← Back to home",
     "learnMoreAbout": "Learn more about my background →",
     "goToContact": "Go to contact",
-    "sendMessage": "Send message",
-    "sending": "Sending...",
+    "contactWhatsApp": "Message on WhatsApp",
     "inProduction": "In production",
     "completed": "Completed"
   },
   "hero": {
-    "label": "Portfolio",
-    "title": "Software that organizes your operations and scales with you",
+    "label": "Custom web development",
+    "title": "I build the software your business needs to run better",
     "subtitle": "Giacomo Baldessari · Full Stack Developer · La Serena, Chile",
-    "description": "I design and build web platforms for SMEs and public organizations — from day-to-day operations to integrations with WhatsApp, CRM, maps, and the tools you already use. All deployed and running in production."
+    "description": "I work with SMEs and organizations ready to move past manual processes: web platforms, integrations, and tools in production. Message me on WhatsApp and we can see if I'm a good fit for what you need."
+  },
+  "whatsapp": {
+    "defaultMessage": "Hi Giacomo, I'd like to talk about a web project."
   },
   "socialProof": {
     "platforms": { "value": "6+", "label": "completed projects" },
     "stack": { "value": "Full Stack", "label": "React · NestJS · TypeScript" },
-    "integrations": { "value": "Integrations", "label": "WhatsApp · CRM · Maps · Ads" }
+    "integrations": { "value": "Integrations", "label": "WhatsApp · CRM · Maps" }
   },
   "services": {
     "label": "Services",
@@ -171,7 +173,23 @@
     "items": [
       {
         "question": "What kind of projects do you build?",
-        "answer": "Web platforms for operations management, B2B commerce, lead capture, and map-based or field data systems. I handle the full product: interface, backend, integrations, and deployment."
+        "answer": "Web platforms for operations management, B2B commerce, tools for lead capture, and map-based or field data systems. I handle the full product: interface, backend, integrations, and deployment."
+      },
+      {
+        "question": "How much does a project cost?",
+        "answer": "It depends on scope and complexity. As a rough guide: landing pages usually start from 8 UF and web applications from 25 UF. In our first conversation I'll give you a range based on what you need."
+      },
+      {
+        "question": "How do you quote?",
+        "answer": "In phases. We first agree on the scope, deliverables, and timeline for each stage — so you can move forward step by step without committing the full budget upfront."
+      },
+      {
+        "question": "How long does it take?",
+        "answer": "Roughly 3 to 6 weeks, depending on scope and how quickly we can iterate on feedback. Larger projects are split into phases, each with its own timeline."
+      },
+      {
+        "question": "What do I need to get started?",
+        "answer": "Ideally a concrete idea: what problem you want to solve, what features you need, and the scope you have in mind. It doesn't have to be perfect — we'll refine it in an initial conversation."
       },
       {
         "question": "Do I need a technical background?",
@@ -198,7 +216,7 @@
   "cta": {
     "label": "Contact",
     "title": "Let's talk about your project",
-    "subtitle": "Available for freelance projects and professional opportunities. Tell me what you want to improve and we will figure out how to approach it."
+    "subtitle": "Message me on WhatsApp with your idea or the problem you want to solve. I'll get back to you as soon as I can."
   },
   "projectsPage": {
     "label": "Projects",
@@ -332,30 +350,19 @@
   "contactPage": {
     "label": "Contact",
     "title": "Let's work together",
-    "intro": "Available for freelance projects and professional opportunities. Write to me and I will get back to you as soon as possible.",
-    "formTitle": "Send me a message",
-    "otherTitle": "Other ways to reach me",
-    "channelsIntro": "You can also reach out or explore my work through these channels.",
+    "intro": "The fastest way to reach me is WhatsApp. You can also email me or connect on LinkedIn.",
+    "whatsappTitle": "Message me on WhatsApp",
+    "whatsappIntro": "Tell me about your idea or the problem you want to solve. I'll reply as soon as I can.",
+    "whatsappCta": "Open WhatsApp",
+    "channelsTitle": "Other channels",
+    "channelsIntro": "If you prefer another channel or want to review my work:",
     "channels": {
+      "whatsapp": "WhatsApp",
       "email": "Email",
       "linkedin": "LinkedIn",
       "github": "GitHub",
       "cv": "Resume",
       "cvHint": "Download PDF"
-    },
-    "successTitle": "Message sent",
-    "successMessage": "Thanks for reaching out. I will reply as soon as possible.",
-    "form": {
-      "name": "Name",
-      "email": "Email",
-      "projectType": "Project type",
-      "message": "Message",
-      "types": {
-        "freelance": "Freelance project",
-        "job": "Job opportunity",
-        "consulting": "Consulting",
-        "other": "Other"
-      }
     }
   },
   "notFound": {

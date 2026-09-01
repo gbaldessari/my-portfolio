@@ -28,8 +28,8 @@
 }
 
 .lang-switcher-btn.active {
-  color: var(--text-primary);
-  background: var(--accent-glow);
+  color: var(--accent-ink);
+  background: var(--accent);
 }
 
 .lang-switcher-btn:focus-visible {

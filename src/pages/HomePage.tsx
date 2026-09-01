@@ -16,8 +16,10 @@ function HomePage() {
   return (
     <div className="main-content">
       <div className="content-container page-stack">
-        <Hero />
-        <SocialProof />
+        <div className="hero-band">
+          <Hero />
+          <SocialProof />
+        </div>
         <Services />
         <Process />
         <WhyMe />

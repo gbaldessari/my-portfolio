@@ -21,8 +21,8 @@ function Process() {
         </Reveal>
         <div className="process-list" role="list">
           {steps.map((step, index) => (
-            <Reveal key={step.title} delay={index * 50} className="process-step" >
-              <span className="process-number">{String(index + 1).padStart(2, '0')}</span>
+            <Reveal key={step.title} delay={index * 50} className="process-step">
+              <span className="process-number">{index + 1}</span>
               <div>
                 <h2>{step.title}</h2>
                 <p>{step.description}</p>
