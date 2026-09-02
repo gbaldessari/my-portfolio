@@ -1,14 +1,51 @@
-import { readFileSync, writeFileSync } from 'node:fs';
+import { existsSync, readFileSync, writeFileSync } from 'node:fs';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 const root = join(dirname(fileURLToPath(import.meta.url)), '..');
+
+/**
+ * Load KEY=VALUE pairs from a .env-style file into process.env.
+ * Existing process.env values win (CI / shell / Vercel stay authoritative).
+ * Matches the Vite files developers typically create from .env.example.
+ */
+function loadEnvFile(filePath) {
+  if (!existsSync(filePath)) return;
+
+  const lines = readFileSync(filePath, 'utf8').split(/\r?\n/);
+  for (const line of lines) {
+    const trimmed = line.trim();
+    if (!trimmed || trimmed.startsWith('#')) continue;
+
+    const match = trimmed.match(/^(?:export\s+)?([A-Za-z_][A-Za-z0-9_]*)\s*=\s*(.*)$/);
+    if (!match) continue;
+
+    const [, key, rawValue] = match;
+    if (process.env[key] !== undefined) continue;
+
+    let value = rawValue.trim();
+    if (
+      (value.startsWith('"') && value.endsWith('"')) ||
+      (value.startsWith("'") && value.endsWith("'"))
+    ) {
+      value = value.slice(1, -1);
+    }
+
+    process.env[key] = value;
+  }
+}
+
+// Vite-compatible local env files (do not override already-set vars).
+for (const fileName of ['.env', '.env.local', '.env.production', '.env.production.local']) {
+  loadEnvFile(join(root, fileName));
+}
+
 const siteUrl = (process.env.VITE_SITE_URL || '').replace(/\/$/, '');
 const base = siteUrl || 'https://example.com';
 
 if (!siteUrl) {
   console.warn('[seo] VITE_SITE_URL is not set. Sitemap and robots.txt will use https://example.com');
-  console.warn('[seo] Set VITE_SITE_URL in Vercel to your production domain.');
+  console.warn('[seo] Set VITE_SITE_URL in .env (see .env.example) or in your host env (e.g. Vercel).');
 }
 
 const metaSource = readFileSync(join(root, 'src/content/projects/meta.ts'), 'utf8');
