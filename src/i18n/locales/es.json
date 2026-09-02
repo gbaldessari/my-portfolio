@@ -59,6 +59,10 @@
   "hero": {
     "label": "Desarrollo web a medida",
     "title": "Construyo el software que tu negocio necesita para operar mejor",
+    "titleBefore": "Construyo el ",
+    "titleAccent1": "software",
+    "titleMiddle": " que tu negocio necesita para ",
+    "titleAccent2": "operar mejor",
     "subtitle": "Giacomo Baldessari · Desarrollador Full Stack · La Serena, Chile",
     "description": "Trabajo con pymes y organizaciones que quieren dejar atrás procesos manuales: plataformas web, integraciones y herramientas en producción. Escríbeme por WhatsApp y vemos si encajo con lo que buscas."
   },
@@ -74,13 +78,18 @@
     "label": "Servicios",
     "title": "Lo que tu negocio gana con una buena plataforma",
     "intro": "No se trata solo de tener una web bonita. Se trata de reemplazar planillas, conectar herramientas y dejar procesos que hoy te quitan horas funcionando solos.",
+    "facts": {
+      "client": "Cliente",
+      "outcome": "Resultado",
+      "stack": "Stack"
+    },
     "items": [
       {
         "title": "Gestión operativa digital",
-        "description": "Centraliza cobros, inventario, asistencias o clientes en un sistema claro para tu equipo, sin depender de Excel ni WhatsApp para todo.",
-        "client": "La Alpina Park",
-        "outcome": "Indicadores y operación diaria en un solo panel",
-        "projectSlug": "la-alpina-park"
+        "description": "Centraliza documentos, proveedores, clientes y el seguimiento de cada envío en un portal único, con roles claros y menos fricción operativa.",
+        "client": "ACAMU",
+        "outcome": "Trazabilidad por envío y gestión documental unificada",
+        "projectSlug": "acamu"
       },
       {
         "title": "Plataformas comerciales B2B",
@@ -115,6 +124,7 @@
     "label": "Cómo trabajo",
     "title": "De la conversación al sistema funcionando",
     "intro": "Un proceso claro para que sepas qué esperar, sin tecnicismos innecesarios ni sorpresas al final.",
+    "stepLabel": "PASO",
     "steps": [
       {
         "title": "Entiendo qué te está costando hoy",
@@ -278,7 +288,7 @@
         "subtitle": "Ingeniero de software y desarrollador · Freelance · Inmobiliaria, Valle del Elqui",
         "excerpt": "Ecosistema de captación de leads para parcelas: landings, CRM y automatización comercial, en evolución en tres fases.",
         "description": "Proyecto freelance para Laguna Roja Inmobiliaria desarrollado en tres fases: landings en Hostinger conectadas a Kommo con Make, API de migración desplegada en Railway durante el cambio a Odoo, y automatización actual con n8n, Evolution API, OpenAI y Google Calendar.",
-        "metrics": ["Landings en Hostinger", "API en Railway", "Primer contacto automático por WhatsApp", "Proyecto en curso"],
+        "metrics": ["Landings en Hostinger", "API en Railway", "Primer contacto automático por WhatsApp"],
         "problem": "La inmobiliaria captaba prospectos desde campañas digitales, pero el flujo comercial dependía de tareas manuales y el equipo cambió de CRM en medio del proyecto. Necesitaban landings que alimentaran el sistema de ventas, reportes periódicos al equipo y, tras migrar a Odoo, automatizar el primer contacto con clientes, la agenda de reuniones y las alertas operativas.",
         "solution": "En la primera fase creé las landing pages, las desplegué en Hostinger y las conecté a Kommo mediante webhooks en Make; también implementé un flujo de reportes por correo electrónico en Make. En la segunda fase, mientras se migraba de Kommo a Odoo, desarrollé una API en NestJS desplegada en Railway que trasladaba los leads del CRM antiguo al nuevo durante la transición. En la tercera fase actualicé las landing pages, reemplacé el webhook de Make por uno en n8n para conectarlas con Odoo, e integré Evolution API y OpenAI para el primer contacto automático con el cliente. Además conecté Google Calendar para agendar reuniones online en Meet o presenciales en los proyectos inmobiliarios, migré el sistema de alertas a n8n y lo amplié para que también lleguen por WhatsApp a través de Evolution API.",
         "result": "El ecosistema fue evolucionando con cada etapa del negocio: hoy las landings alimentan Odoo, el equipo recibe alertas por correo y WhatsApp, y el primer contacto junto con la agenda de reuniones están automatizados. El proyecto sigue en curso, con mejoras y ajustes sobre la operación comercial."

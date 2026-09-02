@@ -143,8 +143,8 @@ function Header() {
   };
 
   const logoSrc = theme === 'dark'
-    ? '/assets/icons/icoBlanco2000.png'
-    : '/assets/icons/icoGris2000.png';
+    ? '/assets/icons/logo_dark.png'
+    : '/assets/icons/logo_light.png';
 
   return (
     <>

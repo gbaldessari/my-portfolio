@@ -28,8 +28,8 @@
 }
 
 .lang-switcher-btn.active {
-  color: var(--accent-ink);
-  background: var(--accent);
+  color: var(--text-inverse);
+  background: var(--bg-inverse);
 }
 
 .lang-switcher-btn:focus-visible {

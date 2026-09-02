@@ -20,7 +20,11 @@ function HomePage() {
           <Hero />
           <SocialProof />
         </div>
-        <Services />
+      </div>
+
+      <Services />
+
+      <div className="content-container page-stack page-stack--after-services">
         <Process />
         <WhyMe />
         <AboutTeaser />

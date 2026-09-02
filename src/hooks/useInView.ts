@@ -35,6 +35,15 @@ export function useInView(
     );
 
     observer.observe(element);
+
+    // Catch elements already in view on route changes / first paint.
+    const rect = element.getBoundingClientRect();
+    const viewportHeight = window.innerHeight || document.documentElement.clientHeight;
+    if (rect.top < viewportHeight * 0.92 && rect.bottom > 0) {
+      setIsInView(true);
+      if (once) observer.disconnect();
+    }
+
     return () => observer.disconnect();
   }, [ref, threshold, rootMargin, once]);
 

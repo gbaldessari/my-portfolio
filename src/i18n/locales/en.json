@@ -59,6 +59,10 @@
   "hero": {
     "label": "Custom web development",
     "title": "I build the software your business needs to run better",
+    "titleBefore": "I build the ",
+    "titleAccent1": "software",
+    "titleMiddle": " your business needs to ",
+    "titleAccent2": "run better",
     "subtitle": "Giacomo Baldessari · Full Stack Developer · La Serena, Chile",
     "description": "I work with SMEs and organizations ready to move past manual processes: web platforms, integrations, and tools in production. Message me on WhatsApp and we can see if I'm a good fit for what you need."
   },
@@ -74,13 +78,18 @@
     "label": "Services",
     "title": "What your business gains from the right platform",
     "intro": "It is not just about a nice website. It is about replacing spreadsheets, connecting tools, and automating processes that currently eat up your team's time.",
+    "facts": {
+      "client": "Client",
+      "outcome": "Outcome",
+      "stack": "Stack"
+    },
     "items": [
       {
         "title": "Digital operations management",
-        "description": "Centralize payments, inventory, attendance, or customers in one clear system — without relying on Excel and WhatsApp for everything.",
-        "client": "La Alpina Park",
-        "outcome": "Daily operations and KPIs in one dashboard",
-        "projectSlug": "la-alpina-park"
+        "description": "Centralize documents, suppliers, clients, and shipment tracking in a single portal — with clear roles and less operational friction.",
+        "client": "ACAMU",
+        "outcome": "Shipment traceability and unified document management",
+        "projectSlug": "acamu"
       },
       {
         "title": "B2B commercial platforms",
@@ -115,6 +124,7 @@
     "label": "How I work",
     "title": "From conversation to a working system",
     "intro": "A clear process so you know what to expect — without unnecessary jargon or last-minute surprises.",
+    "stepLabel": "STEP",
     "steps": [
       {
         "title": "I understand what is costing you today",
@@ -278,7 +288,7 @@
         "subtitle": "Software engineer & developer · Freelance · Real estate, Elqui Valley",
         "excerpt": "Lead capture ecosystem for land plots: landing pages, CRM, and sales automation evolved across three phases.",
         "description": "Freelance project for Laguna Roja Inmobiliaria built in three phases: landing pages on Hostinger connected to Kommo via Make, a migration API deployed on Railway during the move to Odoo, and current automation with n8n, Evolution API, OpenAI, and Google Calendar.",
-        "metrics": ["Landing pages on Hostinger", "API on Railway", "Automated first contact via WhatsApp", "Project in progress"],
+        "metrics": ["Landing pages on Hostinger", "API on Railway", "Automated first contact via WhatsApp"],
         "problem": "The real estate company captured prospects from digital campaigns, but the sales flow relied on manual tasks and the team changed CRM mid-project. They needed landing pages feeding the sales system, periodic team reports, and — after moving to Odoo — automation for first client contact, meeting scheduling, and operational alerts.",
         "solution": "In phase one I built the landing pages, deployed them on Hostinger, and connected them to Kommo through webhooks in Make; I also set up an email reporting flow in Make. In phase two, while migrating from Kommo to Odoo, I developed a NestJS API deployed on Railway that moved leads from the old CRM to the new one during the transition. In phase three I updated the landing pages, replaced the Make webhook with one in n8n to connect them to Odoo, and integrated Evolution API and OpenAI for automated first contact with prospects. I also connected Google Calendar to schedule online Meet calls or in-person meetings at the real estate projects, migrated the alert system to n8n, and extended it so alerts also arrive via WhatsApp through Evolution API.",
         "result": "The ecosystem evolved with each stage of the business: today the landing pages feed Odoo, the team receives alerts by email and WhatsApp, and first contact plus meeting scheduling are automated. The project is still in progress, with ongoing improvements to the commercial operation."

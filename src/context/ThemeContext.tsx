@@ -24,7 +24,7 @@ function applyTheme(theme: Theme) {
 
   const favicon = document.getElementById('favicon') as HTMLLinkElement | null;
   if (favicon) {
-    favicon.href = theme === 'dark' ? '/assets/icons/icoBlanco.png' : '/assets/icons/icoNegro.png';
+    favicon.href = theme === 'dark' ? '/assets/icons/favicon_dark.png' : '/assets/icons/favicon_light.png';
   }
 }
 

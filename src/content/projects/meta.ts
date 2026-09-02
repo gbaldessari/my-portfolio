@@ -26,7 +26,7 @@ export const projectMeta: ProjectMeta[] = [
   },
   {
     slug: 'laguna-roja',
-    tags: ['NestJS', 'TypeScript', 'Make', 'Kommo', 'Odoo', 'N8N', 'Evolution API', 'OpenAI', 'Google Calendar', 'Hostinger', 'Railway'],
+    tags: ['NestJS', 'TypeScript', 'N8N', 'Odoo', 'Make', 'Kommo', 'Evolution API', 'OpenAI', 'Google Calendar', 'Hostinger', 'Railway'],
     cover: '/assets/projects/LagunaRoja.png',
     status: 'in_progress',
     category: ['leads'],
