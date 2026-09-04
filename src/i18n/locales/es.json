@@ -1,10 +1,10 @@
 {
   "meta": {
     "siteName": "Giacomo Baldessari",
-    "defaultDescription": "Desarrollador full stack en La Serena. Plataformas web en producción para pymes y organizaciones públicas: operaciones, comercio B2B e integraciones reales.",
+    "defaultDescription": "Desarrollador full stack en La Serena. Plataformas web en producción para personas y empresas de todo tamaño: operaciones, comercio B2B e integraciones reales.",
     "home": {
       "title": "Giacomo Baldessari — Desarrollador Full Stack",
-      "description": "Desarrollador full stack en La Serena. Plataformas web en producción para pymes y organizaciones públicas: operaciones, comercio B2B e integraciones reales."
+      "description": "Desarrollador full stack en La Serena. Plataformas web en producción para personas y empresas de todo tamaño: operaciones, comercio B2B e integraciones reales."
     },
     "projects": {
       "title": "Proyectos",
@@ -64,7 +64,7 @@
     "titleMiddle": " que tu negocio necesita para ",
     "titleAccent2": "operar mejor",
     "subtitle": "Giacomo Baldessari · Desarrollador Full Stack · La Serena, Chile",
-    "description": "Trabajo con pymes y organizaciones que quieren dejar atrás procesos manuales: plataformas web, integraciones y herramientas en producción. Escríbeme por WhatsApp y vemos si encajo con lo que buscas."
+    "description": "Trabajo con personas y empresas de todo tamaño que quieren dejar atrás procesos manuales: plataformas web, integraciones y herramientas en producción. Si necesitas ayuda en algo, no dudes en escribirme por WhatsApp. Estoy aquí para apoyarte en la búsqueda de alternativas y facilitar las cosas para ti, tu equipo de trabajo y tus clientes."
   },
   "whatsapp": {
     "defaultMessage": "Hola Giacomo, me interesa conversar sobre un proyecto web."
@@ -173,7 +173,7 @@
   "aboutTeaser": {
     "label": "Sobre mí",
     "title": "Hola, soy Giacomo",
-    "p1": "Soy desarrollador full stack, egresado de Ingeniería Civil en Computación e Informática de la Universidad Católica del Norte. Llevo experiencia entregando plataformas en producción para pymes y organizaciones públicas.",
+    "p1": "Soy desarrollador full stack, egresado de Ingeniería Civil en Computación e Informática de la Universidad Católica del Norte. Llevo experiencia entregando plataformas en producción para personas y empresas de todo tamaño.",
     "p2": "Me interesa resolver problemas concretos: menos planillas, más visibilidad, procesos que el equipo pueda usar sin fricción. Si trabajamos juntos, el objetivo es que tengas algo operativo, no solo un prototipo.",
     "link": "Conoce más sobre mi trayectoria →"
   },
@@ -227,7 +227,7 @@
   "projectsPage": {
     "label": "Proyectos",
     "title": "Proyectos completados",
-    "intro": "Casos reales para pymes y organizaciones públicas. Cada uno incluye el problema, la solución implementada y las tecnologías utilizadas."
+    "intro": "Casos reales para personas y empresas de todo tamaño. Cada uno incluye el problema, la solución implementada y las tecnologías utilizadas."
   },
   "caseStudy": {
     "problem": "El problema",
@@ -327,7 +327,7 @@
   "aboutPage": {
     "label": "Sobre mí",
     "title": "Giacomo Baldessari Marchant",
-    "intro": "Desarrollador full stack en La Serena, Chile. Construyo aplicaciones web en producción para pymes y organizaciones públicas, con foco en claridad para el negocio y solidez técnica detrás.",
+    "intro": "Desarrollador full stack en La Serena, Chile. Construyo aplicaciones web en producción para personas y empresas de todo tamaño, con foco en claridad para el negocio y solidez técnica detrás.",
     "approachTitle": "Mi enfoque",
     "approachP1": "Antes de escribir código, entiendo qué proceso te está costando tiempo o dinero hoy. Con eso defino qué construir, en qué plazo y con qué herramientas — y también qué puede esperar.",
     "approachP2": "Trabajo con React, NestJS y TypeScript, eligiendo bases de datos e integraciones según el proyecto. He llevado soluciones de punta a punta: arquitectura, desarrollo, integraciones y despliegue.",
@@ -336,7 +336,7 @@
     "experienceRole": "Desarrollador de Software Freelance",
     "experienceStack": "React · NestJS · TypeScript",
     "experiencePeriod": "Mayo 2025 — Actualidad",
-    "experienceDesc": "Desarrollo de aplicaciones web para pymes, APIs e integraciones con WhatsApp, CRM, mapas y automatizaciones. Despliegue en Vercel, Railway y Docker.",
+    "experienceDesc": "Desarrollo de aplicaciones web para personas y empresas, APIs e integraciones con WhatsApp, CRM, mapas y automatizaciones. Despliegue en Vercel, Railway y Docker.",
     "educationLabel": "Formación",
     "educationTitle": "Educación",
     "educationSchool": "Universidad Católica del Norte",

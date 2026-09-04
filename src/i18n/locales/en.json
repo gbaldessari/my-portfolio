@@ -1,10 +1,10 @@
 {
   "meta": {
     "siteName": "Giacomo Baldessari",
-    "defaultDescription": "Full stack developer in La Serena, Chile. Production web platforms for SMEs and public organizations: operations, B2B commerce, and real integrations.",
+    "defaultDescription": "Full stack developer in La Serena, Chile. Production web platforms for individuals and companies of every size: operations, B2B commerce, and real integrations.",
     "home": {
       "title": "Giacomo Baldessari — Full Stack Developer",
-      "description": "Full stack developer in La Serena, Chile. Production web platforms for SMEs and public organizations: operations, B2B commerce, and real integrations."
+      "description": "Full stack developer in La Serena, Chile. Production web platforms for individuals and companies of every size: operations, B2B commerce, and real integrations."
     },
     "projects": {
       "title": "Projects",
@@ -64,7 +64,7 @@
     "titleMiddle": " your business needs to ",
     "titleAccent2": "run better",
     "subtitle": "Giacomo Baldessari · Full Stack Developer · La Serena, Chile",
-    "description": "I work with SMEs and organizations ready to move past manual processes: web platforms, integrations, and tools in production. Message me on WhatsApp and we can see if I'm a good fit for what you need."
+    "description": "I work with people and companies of every size ready to move past manual processes: web platforms, integrations, and tools in production. If you need help with anything, don't hesitate to message me on WhatsApp. I'm here to support you in finding alternatives and making things easier for you, your team, and your clients."
   },
   "whatsapp": {
     "defaultMessage": "Hi Giacomo, I'd like to talk about a web project."
@@ -173,7 +173,7 @@
   "aboutTeaser": {
     "label": "About",
     "title": "Hi, I'm Giacomo",
-    "p1": "I'm a full stack developer and Computer Science Engineering graduate from Universidad Católica del Norte. I have experience delivering production platforms for SMEs and public organizations.",
+    "p1": "I'm a full stack developer and Computer Science Engineering graduate from Universidad Católica del Norte. I have experience delivering production platforms for people and companies of every size.",
     "p2": "I focus on concrete problems: fewer spreadsheets, more visibility, processes your team can actually use. If we work together, the goal is something operational — not just a prototype.",
     "link": "Learn more about my background →"
   },
@@ -227,7 +227,7 @@
   "projectsPage": {
     "label": "Projects",
     "title": "Completed projects",
-    "intro": "Real case studies for SMEs and public organizations. Each one includes the problem, the implemented solution, and the technologies used."
+    "intro": "Real case studies for people and companies of every size. Each one includes the problem, the implemented solution, and the technologies used."
   },
   "caseStudy": {
     "problem": "The problem",
@@ -327,7 +327,7 @@
   "aboutPage": {
     "label": "About",
     "title": "Giacomo Baldessari Marchant",
-    "intro": "Full stack developer in La Serena, Chile. I build production web applications for SMEs and public organizations, with clarity for the business and solid engineering behind it.",
+    "intro": "Full stack developer in La Serena, Chile. I build production web applications for people and companies of every size, with clarity for the business and solid engineering behind it.",
     "approachTitle": "My approach",
     "approachP1": "Before writing code, I understand which process is costing you time or money today. From there I define what to build, the timeline, and the tools — and also what can wait.",
     "approachP2": "I work with React, NestJS, and TypeScript, choosing databases and integrations per project. I have delivered end-to-end solutions: architecture, development, integrations, and deployment.",
@@ -336,7 +336,7 @@
     "experienceRole": "Freelance Software Developer",
     "experienceStack": "React · NestJS · TypeScript",
     "experiencePeriod": "May 2025 — Present",
-    "experienceDesc": "Web applications for SMEs, APIs, and integrations with WhatsApp, CRM, maps, and automations. Deployment on Vercel, Railway, and Docker.",
+    "experienceDesc": "Web applications for individuals and companies, APIs, and integrations with WhatsApp, CRM, maps, and automations. Deployment on Vercel, Railway, and Docker.",
     "educationLabel": "Education",
     "educationTitle": "Education",
     "educationSchool": "Universidad Católica del Norte",
