@@ -21,11 +21,6 @@ function getInitialTheme(): Theme {
 function applyTheme(theme: Theme) {
   document.documentElement.dataset.theme = theme;
   document.documentElement.style.colorScheme = theme;
-
-  const favicon = document.getElementById('favicon') as HTMLLinkElement | null;
-  if (favicon) {
-    favicon.href = theme === 'dark' ? '/assets/icons/favicon_dark.png' : '/assets/icons/favicon_light.png';
-  }
 }
 
 export function ThemeProvider({ children }: { children: ReactNode }) {

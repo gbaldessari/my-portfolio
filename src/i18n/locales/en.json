@@ -1,10 +1,10 @@
 {
   "meta": {
     "siteName": "Giacomo Baldessari",
-    "defaultDescription": "Full stack developer in La Serena, Chile. Production-ready web platforms for SMEs and public organizations, built with React, NestJS, and real-world integrations.",
+    "defaultDescription": "Full stack developer in La Serena, Chile. Production web platforms for SMEs and public organizations: operations, B2B commerce, and real integrations.",
     "home": {
-      "title": "Portfolio",
-      "description": "Full stack developer building production web platforms for SMEs and public organizations."
+      "title": "Giacomo Baldessari — Full Stack Developer",
+      "description": "Full stack developer in La Serena, Chile. Production web platforms for SMEs and public organizations: operations, B2B commerce, and real integrations."
     },
     "projects": {
       "title": "Projects",

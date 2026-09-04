@@ -22,8 +22,12 @@ export function usePageSeo({
   const { pathname } = useLocation();
 
   const locale = getLocaleFromPath(pathname);
-  const pageTitle = titleKey ? t(titleKey) : t('meta.siteName');
-  const documentTitle = titleKey ? `${pageTitle} | ${t('meta.siteName')}` : t('meta.siteName');
+  const siteName = t('meta.siteName');
+  const pageTitle = titleKey ? t(titleKey) : siteName;
+  const documentTitle =
+    pageTitle === siteName || pageTitle.includes(siteName)
+      ? pageTitle
+      : `${pageTitle} | ${siteName}`;
   const description = descriptionKey ? t(descriptionKey) : t('meta.defaultDescription');
 
   const esPath = translatePath(pathname, 'es');
