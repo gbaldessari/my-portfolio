@@ -173,7 +173,7 @@
   "aboutTeaser": {
     "label": "About",
     "title": "Hi, I'm Giacomo",
-    "p1": "I'm a full stack developer with a degree in Computer Science Engineering from Universidad Católica del Norte. I have experience delivering production platforms for SMEs and public organizations.",
+    "p1": "I'm a full stack developer and Computer Science Engineering graduate from Universidad Católica del Norte. I have experience delivering production platforms for SMEs and public organizations.",
     "p2": "I focus on concrete problems: fewer spreadsheets, more visibility, processes your team can actually use. If we work together, the goal is something operational — not just a prototype.",
     "link": "Learn more about my background →"
   },
@@ -184,10 +184,6 @@
       {
         "question": "What kind of projects do you build?",
         "answer": "Web platforms for operations management, B2B commerce, tools for lead capture, and map-based or field data systems. I handle the full product: interface, backend, integrations, and deployment."
-      },
-      {
-        "question": "How much does a project cost?",
-        "answer": "It depends on scope and complexity. As a rough guide: landing pages usually start from 8 UF and web applications from 25 UF. In our first conversation I'll give you a range based on what you need."
       },
       {
         "question": "How do you quote?",
@@ -344,9 +340,9 @@
     "educationLabel": "Education",
     "educationTitle": "Education",
     "educationSchool": "Universidad Católica del Norte",
-    "educationDegree": "Computer Science Engineering · Coquimbo campus",
+    "educationDegree": "Computer Science Engineering · Graduate · Coquimbo campus",
     "educationPeriod": "2021 — 2026",
-    "educationDesc": "Training in programming, databases, software engineering, and agile methodologies, with academic and collaborative full stack projects.",
+    "educationDesc": "Background in programming, databases, software engineering, and agile methodologies, with academic and collaborative full stack projects.",
     "languagesTitle": "Languages",
     "languages": [
       { "name": "Spanish", "level": "Native" },

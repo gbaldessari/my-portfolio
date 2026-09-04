@@ -173,7 +173,7 @@
   "aboutTeaser": {
     "label": "Sobre mí",
     "title": "Hola, soy Giacomo",
-    "p1": "Soy desarrollador full stack con formación en Ingeniería Civil en Computación en la Universidad Católica del Norte. Llevo experiencia entregando plataformas en producción para pymes y organizaciones públicas.",
+    "p1": "Soy desarrollador full stack, egresado de Ingeniería Civil en Computación e Informática de la Universidad Católica del Norte. Llevo experiencia entregando plataformas en producción para pymes y organizaciones públicas.",
     "p2": "Me interesa resolver problemas concretos: menos planillas, más visibilidad, procesos que el equipo pueda usar sin fricción. Si trabajamos juntos, el objetivo es que tengas algo operativo, no solo un prototipo.",
     "link": "Conoce más sobre mi trayectoria →"
   },
@@ -184,10 +184,6 @@
       {
         "question": "¿Qué tipo de proyectos desarrollas?",
         "answer": "Plataformas web para gestión operativa, comercio B2B, herramientas para la captación de leads y sistemas con mapas o datos en terreno. Trabajo el producto completo: interfaz, backend, integraciones y despliegue."
-      },
-      {
-        "question": "¿Cuánto cuesta un proyecto?",
-        "answer": "Depende del alcance y la complejidad. Como referencia orientativa: las landing pages suelen partir desde las 8 UF y las aplicaciones web desde las 25 UF. En la primera conversación te doy un rango según lo que necesitas."
       },
       {
         "question": "¿Cómo se cotiza?",
@@ -344,7 +340,7 @@
     "educationLabel": "Formación",
     "educationTitle": "Educación",
     "educationSchool": "Universidad Católica del Norte",
-    "educationDegree": "Ingeniería Civil en Computación e Informática · Sede Coquimbo",
+    "educationDegree": "Ingeniería Civil en Computación e Informática · Egresado · Sede Coquimbo",
     "educationPeriod": "2021 — 2026",
     "educationDesc": "Formación en programación, bases de datos, ingeniería de software y metodologías ágiles, con proyectos académicos y colaborativos en desarrollo full stack.",
     "languagesTitle": "Idiomas",

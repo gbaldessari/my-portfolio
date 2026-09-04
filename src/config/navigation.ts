@@ -7,4 +7,4 @@ export const NAV_ROUTE_IDS: { id: NavRouteId; key: string; end?: boolean }[] = [
   { id: 'contact', key: 'nav.contact' },
 ];
 
-export const CV_PATH = '/documents/CV Giacomo Baldessari.pdf';
+export const CV_PATH = '/documents/Giacomo_Baldessari_CV.pdf';

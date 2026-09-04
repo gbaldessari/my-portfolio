@@ -510,24 +510,68 @@ html[data-theme='dark'] .process-section {
   will-change: transform, opacity;
 }
 
-/* Why me — accent-bar cards (different from services) */
+/* Why me — stacked paper deck that fans into a grid */
 .why-grid {
+  position: relative;
+  isolation: isolate;
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 1rem;
   margin-top: 1.5rem;
-  border: none;
+  overflow: visible;
+}
+
+.why-card-slot {
+  position: relative;
+  z-index: calc(1 + var(--why-i, 0));
+  min-width: 0;
+  transform: translate3d(
+      calc(var(--why-x) * (1 - var(--why-p, 0))),
+      calc(var(--why-y) * (1 - var(--why-p, 0))),
+      0
+    )
+    rotate(calc(var(--why-rot) * (1 - var(--why-p, 0))));
+  transform-origin: center center;
+  will-change: transform;
+}
+
+.why-card-slot:nth-child(1) {
+  --why-x: calc(50% + 0.5rem + 22px);
+  --why-y: calc(50% + 0.5rem - 16px);
+  --why-rot: -14deg;
+}
+
+.why-card-slot:nth-child(2) {
+  --why-x: calc(-50% - 0.5rem - 18px);
+  --why-y: calc(50% + 0.5rem + 20px);
+  --why-rot: 11deg;
+}
+
+.why-card-slot:nth-child(3) {
+  --why-x: calc(50% + 0.5rem - 20px);
+  --why-y: calc(-50% - 0.5rem + 14px);
+  --why-rot: 13deg;
+}
+
+.why-card-slot:nth-child(4) {
+  --why-x: calc(-50% - 0.5rem + 18px);
+  --why-y: calc(-50% - 0.5rem - 12px);
+  --why-rot: -9deg;
+}
+
+.why-grid--open .why-card-slot {
+  z-index: 1;
 }
 
 .why-card {
-  padding: 1.45rem 1.4rem 1.45rem 1.35rem;
-  background: color-mix(in srgb, var(--bg-elevated) 88%, transparent);
+  position: relative;
+  height: 100%;
+  padding: 1.45rem 1.4rem 1.45rem 1.5rem;
+  background: var(--bg-elevated);
   border: 1px solid var(--border);
-  border-left: 3px solid var(--accent);
   border-radius: var(--radius-md);
-  box-shadow: var(--shadow-sm);
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
+  box-shadow: var(--shadow-md);
+  overflow: hidden;
   transition:
     transform 0.35s var(--ease),
     border-color 0.35s var(--ease),
@@ -535,11 +579,28 @@ html[data-theme='dark'] .process-section {
     box-shadow 0.35s var(--ease);
 }
 
-.why-card:hover {
+.why-card::before {
+  content: '';
+  position: absolute;
+  top: 0.85rem;
+  bottom: 0.85rem;
+  left: 0;
+  width: 3px;
+  border-radius: 0 999px 999px 0;
+  background: var(--accent);
+  transform: scaleY(var(--why-p, 0));
+  transform-origin: top center;
+  transition: background 0.35s var(--ease);
+}
+
+.why-grid--open .why-card:hover {
   transform: translateX(4px) translateY(-2px);
   background: var(--bg-surface-hover);
-  border-left-color: var(--accent-2);
   box-shadow: var(--shadow-md);
+}
+
+.why-grid--open .why-card:hover::before {
+  background: var(--accent-2);
 }
 
 .why-card h2 {
@@ -904,11 +965,35 @@ html[data-theme='dark'] .process-section {
   }
 
   .why-card {
-    padding: 1.25rem;
+    padding: 1.25rem 1.25rem 1.25rem 1.4rem;
   }
 
   .why-grid {
     gap: 0.85rem;
+  }
+
+  .why-card-slot:nth-child(1) {
+    --why-x: 0;
+    --why-y: 12px;
+    --why-rot: -6deg;
+  }
+
+  .why-card-slot:nth-child(2) {
+    --why-x: 8px;
+    --why-y: calc(-100% - 0.85rem + 6px);
+    --why-rot: 5deg;
+  }
+
+  .why-card-slot:nth-child(3) {
+    --why-x: -6px;
+    --why-y: calc(-200% - 1.7rem - 4px);
+    --why-rot: -3deg;
+  }
+
+  .why-card-slot:nth-child(4) {
+    --why-x: 4px;
+    --why-y: calc(-300% - 2.55rem + 8px);
+    --why-rot: 4deg;
   }
 
   .case-study-meta {
@@ -1016,9 +1101,16 @@ html[data-theme='dark'] .process-section {
   .process-copy,
   .process-icon,
   .process-line,
-  .service-stack-panel {
+  .service-stack-panel,
+  .why-card-slot,
+  .why-card,
+  .why-card::before {
     filter: none !important;
     transform: none !important;
     transition: none !important;
+  }
+
+  .why-card-slot {
+    opacity: 1;
   }
 }
