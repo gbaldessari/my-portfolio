@@ -42,9 +42,11 @@ function FAQAccordion({ items }: FAQAccordionProps) {
               role="region"
               aria-labelledby={buttonId}
               className="faq-answer"
-              hidden={!isOpen}
+              aria-hidden={!isOpen}
             >
-              <p>{item.answer}</p>
+              <div className="faq-answer-inner">
+                <p>{item.answer}</p>
+              </div>
             </div>
           </div>
         );

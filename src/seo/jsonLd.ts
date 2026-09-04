@@ -9,7 +9,7 @@ export function createPersonSchema() {
     name: 'Giacomo Baldessari',
     jobTitle: 'Full Stack Developer',
     url: origin || undefined,
-    email: 'mailto:giacomo.baldessari11@gmail.com',
+    email: 'mailto:giacomo.baldessari.dev@gmail.com',
     address: {
       '@type': 'PostalAddress',
       addressLocality: 'La Serena',

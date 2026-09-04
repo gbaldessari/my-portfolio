@@ -12,10 +12,10 @@ import '../components/contact-page.css';
 const CONTACT_CHANNELS = [
   {
     id: 'email',
-    href: 'mailto:giacomo.baldessari11@gmail.com',
+    href: 'mailto:giacomo.baldessari.dev@gmail.com',
     icon: FaEnvelope,
     labelKey: 'contactPage.channels.email',
-    value: 'giacomo.baldessari11@gmail.com',
+    value: 'giacomo.baldessari.dev@gmail.com',
     external: false,
   },
   {

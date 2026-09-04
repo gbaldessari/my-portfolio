@@ -1,97 +1,118 @@
-# My Portfolio
+# Portafolio — Giacomo Baldessari
 
-Este proyecto es una página web de portafolio personal diseñada para mostrar información sobre mí, mis habilidades, proyectos y formas de contacto. La página está desarrollada con **React**, **TypeScript** y **Vite**, y utiliza un diseño responsivo para adaptarse a diferentes dispositivos.
+Sitio personal de [Giacomo Baldessari](https://gbaldessari.com), desarrollador full stack en La Serena, Chile. Muestra plataformas web en producción para pymes y organizaciones públicas, con casos de estudio, formación y contacto (WhatsApp, correo y LinkedIn).
 
-## Finalidad de la Página
+Desarrollado con **React**, **TypeScript** y **Vite**. En producción: [gbaldessari.com](https://gbaldessari.com).
 
-La finalidad de esta página es:
+## Qué incluye
 
-- Presentar información sobre mi formación académica y experiencia.
-- Mostrar mis habilidades técnicas y herramientas con las que trabajo.
-- Proveer un espacio para que los visitantes puedan explorar mis proyectos.
-- Facilitar el contacto a través de enlaces a mis redes sociales y correo electrónico.
+- **Inicio**: propuesta de valor, servicios, proceso de trabajo y FAQ.
+- **Proyectos**: seis casos reales (La Alpina Park, Ventas Fama, Laguna Roja, ACAMU, GP-Performance, UOCT Connect), cada uno con página de caso de estudio.
+- **Sobre mí**: experiencia freelance, formación (egresado UCN), idiomas y stack.
+- **Contacto**: WhatsApp, correo, LinkedIn, GitHub y descarga del CV.
+- Español e inglés con rutas propias (`/` y `/en`, `/proyectos` y `/en/projects`, etc.).
+- Tema claro/oscuro, SEO (canonical, Open Graph, JSON-LD, sitemap y `robots.txt`) y diseño responsivo.
 
----
+## Requisitos
 
-## Requisitos Previos
+- **Node.js** 18 o superior
+- **npm** (incluido con Node.js)
 
-Antes de comenzar, asegúrate de tener instalados los siguientes programas:
+## Cómo correrlo en local
 
-- **Node.js** (versión 16 o superior): [Descargar Node.js](https://nodejs.org/)
-- **npm** (incluido con Node.js) o **yarn** como gestor de paquetes.
-
----
-
-## Cómo Levantar la Aplicación en Local
-
-Sigue estos pasos para ejecutar la aplicación en tu entorno local:
-
-1. **Clona el repositorio**:
+1. Clona el repositorio:
 
    ```bash
-   git clone https://github.com/tu-usuario/my-portfolio.git
+   git clone https://github.com/gbaldessari/my-portfolio.git
    cd my-portfolio
    ```
 
-2. **Instala las dependencias**:
+2. Instala las dependencias:
 
    ```bash
    npm install
    ```
 
-   O si usas `yarn`:
+3. Copia las variables de entorno:
 
    ```bash
-   yarn install
+   cp .env.example .env
    ```
 
-3. **Inicia el servidor de desarrollo**:
+   En Windows (PowerShell):
+
+   ```powershell
+   Copy-Item .env.example .env
+   ```
+
+   Ajusta al menos:
+
+   | Variable | Uso |
+   | --- | --- |
+   | `VITE_SITE_URL` | URL del sitio sin barra final (canonical, Open Graph y sitemap). En local puede quedar el valor de ejemplo. |
+   | `VITE_WHATSAPP_NUMBER` | Número de WhatsApp con código de país, solo dígitos (ej. `56912345678`). |
+
+4. Inicia el servidor de desarrollo:
 
    ```bash
    npm run dev
    ```
 
-   O si usas `yarn`:
+   La app queda en [http://localhost:5173](http://localhost:5173).
 
-   ```bash
-   yarn dev
-   ```
+## Scripts
 
-4. **Abre la aplicación en tu navegador**:
-  La aplicación estará disponible en [http://localhost:5173](http://localhost:5173).
+| Comando | Descripción |
+| --- | --- |
+| `npm run dev` | Servidor de desarrollo (Vite). |
+| `npm run build` | Genera `public/sitemap.xml` y `public/robots.txt`, luego compila a `dist/`. |
+| `npm run preview` | Sirve el build de producción en local. |
+| `npm run lint` | ESLint. |
 
----
+## Estructura
 
-## Estructura del Proyecto
-
-El proyecto está organizado de la siguiente manera:
-
-```bash
+```text
 public/
-├── assets/           # Imágenes
-├── documents/        # Recursos estáticos
+├── assets/            # Iconos, logos, capturas de proyectos y stack
+├── documents/         # CV (Giacomo_Baldessari_CV.pdf)
+scripts/
+└── generate-sitemap.mjs
 src/
-├── components/       # Componentes reutilizables como el carrusel y el tic tac toe
-├── pages/            # Vistas de la aplicación
-├── App.tsx           # Componente principal de la aplicación
-├── main.tsx          # Punto de entrada de la aplicación
+├── components/        # Layout, secciones del home, UI y SEO
+├── config/            # Sitio, navegación y WhatsApp
+├── content/projects/  # Metadatos de los casos de estudio
+├── context/           # Tema claro/oscuro
+├── hooks/
+├── i18n/              # Rutas ES/EN y copys (es.json, en.json)
+├── pages/             # Inicio, proyectos, caso, sobre mí, contacto, 404
+├── seo/
+├── App.tsx
+└── main.tsx
 ```
 
----
+Los textos de la web viven en `src/i18n/locales/`. Los proyectos se definen en `src/content/projects/meta.ts` y se enriquecen con las traducciones.
 
-## Tecnologías Utilizadas
+## Rutas
 
-- **React**: Biblioteca para construir interfaces de usuario.
-- **TypeScript**: Superset de JavaScript que añade tipado estático.
-- **Vite**: Herramienta de desarrollo rápida para aplicaciones web modernas.
-- **CSS**: Para los estilos de la página.
+| Español | English |
+| --- | --- |
+| `/` | `/en` |
+| `/proyectos` | `/en/projects` |
+| `/proyectos/:slug` | `/en/projects/:slug` |
+| `/sobre-mi` | `/en/about` |
+| `/contacto` | `/en/contact` |
 
----
+## Tecnologías
+
+- React 19 y React Router
+- TypeScript
+- Vite 6
+- i18next / react-i18next
+- CSS propio (sin framework de UI)
 
 ## Contacto
 
-Si tienes alguna pregunta o sugerencia, no dudes en contactarme:
-
-- **Correo**: [giacomo.baldessari@alumnos.ucn.cl](mailto:giacomo.baldessari@alumnos.ucn.cl)
-- **LinkedIn**: [Giacomo Baldessari](https://www.linkedin.com/in/giacomo-baldessari/)
+- **Sitio**: [gbaldessari.com](https://gbaldessari.com)
+- **Correo**: [giacomo.baldessari.dev@gmail.com](mailto:giacomo.baldessari.dev@gmail.com)
+- **LinkedIn**: [giacomo-baldessari](https://www.linkedin.com/in/giacomo-baldessari/)
 - **GitHub**: [gbaldessari](https://github.com/gbaldessari)
