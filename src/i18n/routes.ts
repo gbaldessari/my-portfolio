@@ -32,12 +32,12 @@ export function matchRoute(pathname: string): RouteMatch {
   if (enProject) return { name: 'project', locale: 'en', slug: enProject[1] };
 
   if (path === '/') return { name: 'home', locale: 'es' };
-  if (path === '/proyectos') return { name: 'projects', locale: 'es' };
-  if (path === '/sobre-mi') return { name: 'about', locale: 'es' };
-  if (path === '/contacto') return { name: 'contact', locale: 'es' };
+  if (path === '/projects' || path === '/proyectos') return { name: 'projects', locale: 'es' };
+  if (path === '/about' || path === '/sobre-mi') return { name: 'about', locale: 'es' };
+  if (path === '/contact' || path === '/contacto') return { name: 'contact', locale: 'es' };
   if (path === '/404') return { name: 'notFound', locale: 'es' };
 
-  const esProject = path.match(/^\/proyectos\/([^/]+)$/);
+  const esProject = path.match(/^\/(?:projects|proyectos)\/([^/]+)$/);
   if (esProject) return { name: 'project', locale: 'es', slug: esProject[1] };
 
   return { name: 'notFound', locale: getLocaleFromPath(path) };
@@ -48,13 +48,13 @@ export function buildPath(locale: Locale, route: RouteName, slug?: string): stri
     case 'home':
       return locale === 'en' ? '/en' : '/';
     case 'projects':
-      return locale === 'en' ? '/en/projects' : '/proyectos';
+      return locale === 'en' ? '/en/projects' : '/projects';
     case 'project':
-      return locale === 'en' ? `/en/projects/${slug}` : `/proyectos/${slug}`;
+      return locale === 'en' ? `/en/projects/${slug}` : `/projects/${slug}`;
     case 'about':
-      return locale === 'en' ? '/en/about' : '/sobre-mi';
+      return locale === 'en' ? '/en/about' : '/about';
     case 'contact':
-      return locale === 'en' ? '/en/contact' : '/contacto';
+      return locale === 'en' ? '/en/contact' : '/contact';
     case 'notFound':
       return locale === 'en' ? '/en/404' : '/404';
   }

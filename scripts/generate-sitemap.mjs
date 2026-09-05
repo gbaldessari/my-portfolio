@@ -53,10 +53,10 @@ const slugs = [...metaSource.matchAll(/slug: '([^']+)'/g)].map((match) => match[
 
 const pairs = [
   ['/', '/en'],
-  ['/proyectos', '/en/projects'],
-  ['/sobre-mi', '/en/about'],
-  ['/contacto', '/en/contact'],
-  ...slugs.map((slug) => [`/proyectos/${slug}`, `/en/projects/${slug}`]),
+  ['/projects', '/en/projects'],
+  ['/about', '/en/about'],
+  ['/contact', '/en/contact'],
+  ...slugs.map((slug) => [`/projects/${slug}`, `/en/projects/${slug}`]),
 ];
 
 const lastmod = new Date().toISOString().slice(0, 10);

@@ -10,7 +10,7 @@ Desarrollado con **React**, **TypeScript** y **Vite**. En producción: [gbaldess
 - **Proyectos**: seis casos reales (La Alpina Park, Ventas Fama, Laguna Roja, ACAMU, GP-Performance, UOCT Connect), cada uno con página de caso de estudio.
 - **Sobre mí**: experiencia freelance, formación (egresado UCN), idiomas y stack.
 - **Contacto**: WhatsApp, correo, LinkedIn, GitHub y descarga del CV.
-- Español e inglés con rutas propias (`/` y `/en`, `/proyectos` y `/en/projects`, etc.).
+- Español e inglés con rutas propias (`/` y `/en`, `/projects` y `/en/projects`, `/about` y `/en/about`, etc.).
 - Tema claro/oscuro, SEO (canonical, Open Graph, JSON-LD, sitemap y `robots.txt`) y diseño responsivo.
 
 ## Requisitos
@@ -97,10 +97,10 @@ Los textos de la web viven en `src/i18n/locales/`. Los proyectos se definen en `
 | Español | English |
 | --- | --- |
 | `/` | `/en` |
-| `/proyectos` | `/en/projects` |
-| `/proyectos/:slug` | `/en/projects/:slug` |
-| `/sobre-mi` | `/en/about` |
-| `/contacto` | `/en/contact` |
+| `/projects` | `/en/projects` |
+| `/projects/:slug` | `/en/projects/:slug` |
+| `/about` | `/en/about` |
+| `/contact` | `/en/contact` |
 
 ## Tecnologías
 

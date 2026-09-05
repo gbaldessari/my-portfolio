@@ -1,5 +1,30 @@
 {
+  "redirects": [
+    { "source": "/sobre-mi", "destination": "/about", "permanent": true },
+    { "source": "/proyectos", "destination": "/projects", "permanent": true },
+    { "source": "/proyectos/:slug", "destination": "/projects/:slug", "permanent": true },
+    { "source": "/contacto", "destination": "/contact", "permanent": true }
+  ],
+  "headers": [
+    {
+      "source": "/favicon.ico",
+      "headers": [
+        { "key": "Content-Type", "value": "image/x-icon" },
+        { "key": "Cache-Control", "value": "public, max-age=86400" }
+      ]
+    },
+    {
+      "source": "/favicon-48x48.png",
+      "headers": [
+        { "key": "Content-Type", "value": "image/png" },
+        { "key": "Cache-Control", "value": "public, max-age=86400" }
+      ]
+    }
+  ],
   "rewrites": [
-    { "source": "/(.*)", "destination": "/index.html" }
+    {
+      "source": "/((?!favicon\\.ico|favicon-48x48\\.png|apple-touch-icon\\.png|robots\\.txt|sitemap\\.xml|assets/|documents/).*)",
+      "destination": "/index.html"
+    }
   ]
 }

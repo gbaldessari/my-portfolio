@@ -1,10 +1,10 @@
 {
   "meta": {
     "siteName": "Giacomo Baldessari",
-    "defaultDescription": "Desarrollador full stack en La Serena. Plataformas web en producción para personas y empresas de todo tamaño: operaciones, comercio B2B e integraciones reales.",
+    "defaultDescription": "Desarrollador full stack en La Serena. Plataformas web para personas y empresas: operaciones, B2B e integraciones.",
     "home": {
       "title": "Giacomo Baldessari — Desarrollador Full Stack",
-      "description": "Desarrollador full stack en La Serena. Plataformas web en producción para personas y empresas de todo tamaño: operaciones, comercio B2B e integraciones reales."
+      "description": "Desarrollador full stack en La Serena. Plataformas web para personas y empresas: operaciones, B2B e integraciones."
     },
     "projects": {
       "title": "Proyectos",
@@ -70,7 +70,7 @@
     "defaultMessage": "Hola Giacomo, me interesa conversar sobre un proyecto web."
   },
   "socialProof": {
-    "platforms": { "value": "6+", "label": "proyectos completados" },
+    "platforms": { "value": "5+", "label": "proyectos completados" },
     "stack": { "value": "Full Stack", "label": "React · NestJS · TypeScript" },
     "integrations": { "value": "Integraciones", "label": "WhatsApp · CRM · Mapas" }
   },
